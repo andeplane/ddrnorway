@@ -1,0 +1,493 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<title>DDRNorway Multimediagalleri</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="./templates/default/style.css" />
+<script language="javascript" type="text/javascript">
+<!--
+  function opendetailwindow() { 
+    window.open('','detailwindow','toolbar=no,scrollbars=yes,resizable=no,width=680,height=480');
+  }
+// -->
+</script>
+<STYLE type=text/css>
+br, p, form, table, th, tr, body, html { COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica; FONT-SIZE: 10pt }
+ol, ul, blockquote { FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: white; FONT-SIZE: 10pt }
+A:link { COLOR: 000000; TEXT-DECORATION: none }
+A:visited { COLOR: 000000; TEXT-DECORATION: underline }
+A:active { COLOR: 000000; TEXT-DECORATION: underline }
+A:hover { COLOR: #FFCC99; TEXT-DECORATION: none }
+body { scrollbar-face-color: #FF5400; scrollbar-shadow-color: #FF5400; scrollbar-highlight-color: #FF7531; scrollbar-3dlight-color: #FF7200; scrollbar-darkshadow-color: #FF7200; scrollbar-track-color: #FF7200; scrollbar-arrow-color: #FFFFFF }
+</STYLE>
+</head>
+<body bgcolor="#FF6600" link="#CCCCCC" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+<br />
+<center><b>.: <a href="/">Tilbake til Hovedsiden</a> : <a href="/forum/">Tilbake til Forumet</a> :.</b></center><br>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td> 
+      <table width="640" border="0" cellspacing="0" cellpadding="0" class="tablehead">
+        <tr> 
+          <td colspan="4"><img src="./templates/default/images/header_top.gif" width="640" height="6" alt="" /></td>
+        </tr>
+        <tr> 
+          <td width="6"><img src="./templates/default/images/header_left.gif" width="6" height="60" alt="" /></td>
+          <td width="405"><img src="./templates/default/images/header_logo.gif" width="405" height="60" alt="" /></td>
+          <td width="225" align="right"> 
+            <form method="post" action="./search.php?sessionid=4bc039134b1f0f3a3259fa5c093d4db2">
+              <table border="0" cellspacing="0" cellpadding="1">
+                <tr> 
+                  <td> 
+                    <input type="text" name="search_keywords" size="15" class="searchinput" />
+                  </td>
+                  <td> 
+                    <input type="submit" value="Search" class="button" name="submit" />
+                  </td>
+                </tr>
+                <tr valign="top"> 
+                  <td colspan="2"><a href="./search.php?sessionid=4bc039134b1f0f3a3259fa5c093d4db2" class="smalltext">Advanced search</a></td>
+                </tr>
+              </table>
+            </form>
+          </td>
+          <td align="right" width="6"><img src="./templates/default/images/header_right.gif" width="6" height="60" alt="" /></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td class="bordercolor"> 
+      <table width="640" border="0" cellspacing="1" cellpadding="0">
+        <tr> 
+          <td class="tablebgcolor"> 
+            <table width="638" border="0" cellspacing="1" cellpadding="0">
+              <tr> 
+                <td height="23" class="navbar"> 
+                  <table width="636" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td><img src="./templates/default/images/spacer.gif" width="4" height="4" alt="" /><span class="clickstream"><a href="./index.php?sessionid=4bc039134b1f0f3a3259fa5c093d4db2" class="clickstream">Home</a>&nbsp;/&nbsp;<a href="./categories.php?cat_id=27&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2" class="clickstream">Morobilder</a>&nbsp;/&nbsp;<a href="./categories.php?cat_id=31&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2" class="clickstream">Tegninger ol.</a>&nbsp;/&nbsp;Electus hunted by Boyas</span></td>
+                      <td align="right">
+					    <a href="./top.php?sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><b>Top images</b></a>&nbsp;
+						<a href="./search.php?search_new_images=1&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><b>New images</b></a>&nbsp;
+					  </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table width="638" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="150" valign="top" class="row2"> 
+                  <table width="150" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td class="head2" height="20"><img src="./templates/default/images/spacer.gif" alt="" width="4" height="4" />Registered users</td>
+                    </tr>
+                    <tr> 
+                      <td class="tablebgcolor"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" class="row1"><table width="100%" border="0" cellpadding="4" cellspacing="0">
+  <tr> 
+    <td valign="top" align="left"> 
+      <form action="./login.php?sessionid=4bc039134b1f0f3a3259fa5c093d4db2" method="post">
+        Username:<br />
+        <input type="text" size="10" name="user_name" class="logininput" />
+        <br />
+        Password:<br />
+        <input type="password" size="10" name="user_password" class="logininput" />
+        <br />
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr valign="top"> 
+            <td><input type="checkbox" name="auto_login" value="1" /></td>
+            <td><span class="smalltext">Log me on automatically next visit?</span></td>
+          </tr>
+        </table>
+        <br />
+		<input type="submit" value="Log In" class="button" />
+      </form>
+      &raquo; <a href="./member.php?action=lostpassword&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2">Forgot password</a><br />
+	  &raquo; <a href="./register.php?sessionid=4bc039134b1f0f3a3259fa5c093d4db2">Registration</a></td>
+  </tr>
+</table>
+</td>
+                    </tr>
+                    <tr> 
+                      <td class="tablebgcolor"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                    </tr>
+                  </table>
+				  
+                  <table width="150" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td class="head2" height="20"> <img src="./templates/default/images/spacer.gif" alt="" width="4" height="4" />Random image</td>
+                    </tr>
+                    <tr> 
+                      <td class="tablebgcolor"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" class="row1">
+					    <br />
+                        <a href="./details.php?image_id=243&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./data/thumbnails/31/electus_hunted_by_boyas.jpg" border="0" width="100" height="71" alt="Electus hunted by Boyas" /></a><br />Electus hunted by Boyas<br />
+Comments: 6<br />Advena
+						<br />
+                        <br />
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td class="tablebgcolor"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                    </tr>
+                  </table>
+				  
+				</td>
+                <td width="1" class="bordercolor" valign="top"><img src="./templates/default/images/spacer.gif" width="1" height="1" alt="" /></td>
+                <td width="18" valign="top"><img src="./templates/default/images/spacer.gif" width="18" height="18" alt="" /></td>
+                <td width="450" valign="top"><br />
+                  <b class="title">Electus hunted by Boyas</b>
+				  <hr size="1" />
+                  
+                  <div align="center">
+				    <!-- Template file for JPG Files -->
+<img src="./data/media/31/electus_hunted_by_boyas.jpg" border="1" alt="Electus hunted by Boyas" width="997" height="713" /><br />
+
+				    
+				    <br /><img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />&nbsp;&nbsp;<a href="./postcards.php?image_id=243&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images/postcard.gif" border="0" alt="" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./templates/default/images/download_off.gif" border="0" alt="" />&nbsp;&nbsp;<img src="./templates/default/images/download_zip_off.gif" border="0" alt="" />
+				  </div>
+				  <br />
+                  <table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr> 
+                      <td class="bordercolor"> 
+                        <table width="100%" border="0" cellpadding="3" cellspacing="0">
+						  <tr> 
+                            <td class="head1" valign="top" colspan="2">Electus hunted by Boyas</td>
+                          </tr>
+                          <tr> 
+                            <td valign="top" class="row1"><b>Description:</b></td>
+                            <td valign="top" class="row1">Dette er da electus som blir jaga av hunden til en felles venn :p Jeg er l33t i paint.</td>
+                          </tr>
+                          <tr> 
+                            <td valign="top" class="row2"><b>Keywords:</b></td>
+                            <td valign="top" class="row2"><a href="./search.php?search_keywords=electus&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2">electus</a>, <a href="./search.php?search_keywords=sinna-voff&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2">sinna-voff</a></td>
+                          </tr>
+                          <tr> 
+                            <td valign="top" class="row1"><b>Date:</b></td>
+                            <td valign="top" class="row1">18.02.2004 06:55</td>
+                          </tr>
+                          <tr> 
+                            <td valign="top" class="row2"><b>Hits:</b></td>
+                            <td valign="top" class="row2">242</td>
+                          </tr>
+                          <tr> 
+                            <td valign="top" class="row1"><b>Downloads:</b></td>
+                            <td valign="top" class="row1">0</td>
+                          </tr>
+                          <tr> 
+                            <td valign="top" class="row2"><b>Rating:</b></td>
+                            <td valign="top" class="row2">0.00 (0 Vote(s))</td>
+                          </tr>
+                          <tr> 
+                            <td valign="top" class="row1"><b>File size:</b></td>
+                            <td valign="top" class="row1">32.0&nbsp;KB</td>
+                          </tr>
+						  <tr> 
+                            <td valign="top" class="row2"><b>Added by:</b></td>
+                            <td valign="top" class="row2"><a href="./member.php?action=showprofile&amp;user_id=61&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2">Advena</a></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+				  
+				  
+				  <div align="center"><form method="post" action="details.php?image_id=243&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2">
+  <table border="0" cellspacing="0" cellpadding="1">
+    <tr>
+      <td class="head1">
+        <table border="0" cellspacing="0" cellpadding="3" class="row1">
+          <tr> 
+            <td valign="bottom"> 
+              <select name="rating" class="select">
+                <option value="">--</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+              </select>
+            </td>
+            <td> 
+              <input type="hidden" name="action" value="rateimage" />
+              <input type="hidden" name="id" value="243" />
+              <input type="submit" value="Rate" class="button" name="submit" />
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</form></div>
+				  
+                  
+				  <br />
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                      <td class="head1" valign="top"> 
+                        <table width="100%" border="0" cellpadding="3" cellspacing="1">
+                          <tr> 
+                            <td valign="top" class="head1">Author:</td>
+							<td valign="top" class="head1">Comment:</td>
+                          </tr>
+                          <tr> 
+  <td class="commentrow1" valign="top" nowrap="nowrap">
+    <b>kjmcw</b><br />
+	Member<br /><br />Join Date: 30.10.2003<br />Comments: 2
+	
+  </td>
+  <td width="100%" class="commentrow1" valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><b>eep</b></td>
+        <td valign="top" align="right"></td>
+      </tr>
+    </table>
+    <hr size="1" />
+    Ser ut som en rabiat sau med trebein. Jeg ville vært skremt.
+  </td>
+</tr>
+<tr>
+  <td class="commentrow1" nowrap="nowrap">
+    <span class="smalltext">18.02.2004 09:43</span>
+  </td>
+  <td class="commentrow1">
+    <img src="./templates/default/images/user_offline.gif" border="0" alt="Offline" />
+    <a href="./member.php?action=showprofile&amp;user_id=37&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images_english/profile.gif" border="0" alt="kjmcw" /></a>
+    <a href="./member.php?action=mailform&amp;user_id=37&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images/email.gif" border="0" alt="jv at circuitry.no" /></a>
+    
+    
+  </td>
+</tr>
+<tr>
+  <td colspan="2" class="commentspacerrow"><img src="./templates/default/images/spacer.gif" width="1" height="1" alt="" /></td>
+</tr><tr> 
+  <td class="commentrow2" valign="top" nowrap="nowrap">
+    <b>Snute</b><br />
+	Member<br /><br />Join Date: 30.10.2003<br />Comments: 131
+	
+  </td>
+  <td width="100%" class="commentrow2" valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><b>.</b></td>
+        <td valign="top" align="right"></td>
+      </tr>
+    </table>
+    <hr size="1" />
+    Ser ut som en sint sau med sugar rush
+  </td>
+</tr>
+<tr>
+  <td class="commentrow2" nowrap="nowrap">
+    <span class="smalltext">20.02.2004 08:46</span>
+  </td>
+  <td class="commentrow2">
+    <img src="./templates/default/images/user_offline.gif" border="0" alt="Offline" />
+    <a href="./member.php?action=showprofile&amp;user_id=36&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images_english/profile.gif" border="0" alt="Snute" /></a>
+    <a href="./member.php?action=mailform&amp;user_id=36&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images/email.gif" border="0" alt="jenaasga at gs.oknett.no" /></a>
+    <a href="http://im.suxos.org" target="_blank"><img src="./templates/default/images/homepage.gif" border="0" alt="http://im.suxos.org" /></a>
+    
+  </td>
+</tr>
+<tr>
+  <td colspan="2" class="commentspacerrow"><img src="./templates/default/images/spacer.gif" width="1" height="1" alt="" /></td>
+</tr><tr> 
+  <td class="commentrow1" valign="top" nowrap="nowrap">
+    <b>Smiph</b><br />
+	Admin<br /><br />Join Date: 24.07.2003<br />Comments: 112
+	
+  </td>
+  <td width="100%" class="commentrow1" valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><b>lol</b></td>
+        <td valign="top" align="right"></td>
+      </tr>
+    </table>
+    <hr size="1" />
+    l33t paint skillz..
+  </td>
+</tr>
+<tr>
+  <td class="commentrow1" nowrap="nowrap">
+    <span class="smalltext">20.02.2004 20:37</span>
+  </td>
+  <td class="commentrow1">
+    <img src="./templates/default/images/user_offline.gif" border="0" alt="Offline" />
+    <a href="./member.php?action=showprofile&amp;user_id=2&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images_english/profile.gif" border="0" alt="Smiph" /></a>
+    <a href="./member.php?action=mailform&amp;user_id=2&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images/email.gif" border="0" alt="slimy_babie at hotmail.com" /></a>
+    
+    
+  </td>
+</tr>
+<tr>
+  <td colspan="2" class="commentspacerrow"><img src="./templates/default/images/spacer.gif" width="1" height="1" alt="" /></td>
+</tr><tr> 
+  <td class="commentrow2" valign="top" nowrap="nowrap">
+    <b>Snute</b><br />
+	Member<br /><br />Join Date: 30.10.2003<br />Comments: 131
+	
+  </td>
+  <td width="100%" class="commentrow2" valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><b>.</b></td>
+        <td valign="top" align="right"></td>
+      </tr>
+    </table>
+    <hr size="1" />
+    fritidsproblem-aktig
+  </td>
+</tr>
+<tr>
+  <td class="commentrow2" nowrap="nowrap">
+    <span class="smalltext">24.02.2004 13:00</span>
+  </td>
+  <td class="commentrow2">
+    <img src="./templates/default/images/user_offline.gif" border="0" alt="Offline" />
+    <a href="./member.php?action=showprofile&amp;user_id=36&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images_english/profile.gif" border="0" alt="Snute" /></a>
+    <a href="./member.php?action=mailform&amp;user_id=36&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images/email.gif" border="0" alt="jenaasga at gs.oknett.no" /></a>
+    <a href="http://im.suxos.org" target="_blank"><img src="./templates/default/images/homepage.gif" border="0" alt="http://im.suxos.org" /></a>
+    
+  </td>
+</tr>
+<tr>
+  <td colspan="2" class="commentspacerrow"><img src="./templates/default/images/spacer.gif" width="1" height="1" alt="" /></td>
+</tr><tr> 
+  <td class="commentrow1" valign="top" nowrap="nowrap">
+    <b>MrSock</b><br />
+	Member<br /><br />Join Date: 05.03.2004<br />Comments: 1
+	
+  </td>
+  <td width="100%" class="commentrow1" valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><b>.</b></td>
+        <td valign="top" align="right"></td>
+      </tr>
+    </table>
+    <hr size="1" />
+    Yeah. Bikkja mi rox.
+  </td>
+</tr>
+<tr>
+  <td class="commentrow1" nowrap="nowrap">
+    <span class="smalltext">05.03.2004 11:49</span>
+  </td>
+  <td class="commentrow1">
+    <img src="./templates/default/images/user_offline.gif" border="0" alt="Offline" />
+    <a href="./member.php?action=showprofile&amp;user_id=65&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images_english/profile.gif" border="0" alt="MrSock" /></a>
+    <a href="./member.php?action=mailform&amp;user_id=65&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images/email.gif" border="0" alt="fredrib90 at hotmail.com" /></a>
+    
+    
+  </td>
+</tr>
+<tr>
+  <td colspan="2" class="commentspacerrow"><img src="./templates/default/images/spacer.gif" width="1" height="1" alt="" /></td>
+</tr><tr> 
+  <td class="commentrow2" valign="top" nowrap="nowrap">
+    <b>Snute</b><br />
+	Member<br /><br />Join Date: 30.10.2003<br />Comments: 131
+	
+  </td>
+  <td width="100%" class="commentrow2" valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><b>.</b></td>
+        <td valign="top" align="right"></td>
+      </tr>
+    </table>
+    <hr size="1" />
+    w00t?
+  </td>
+</tr>
+<tr>
+  <td class="commentrow2" nowrap="nowrap">
+    <span class="smalltext">10.11.2004 08:08</span>
+  </td>
+  <td class="commentrow2">
+    <img src="./templates/default/images/user_offline.gif" border="0" alt="Offline" />
+    <a href="./member.php?action=showprofile&amp;user_id=36&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images_english/profile.gif" border="0" alt="Snute" /></a>
+    <a href="./member.php?action=mailform&amp;user_id=36&amp;sessionid=4bc039134b1f0f3a3259fa5c093d4db2"><img src="./templates/default/images/email.gif" border="0" alt="jenaasga at gs.oknett.no" /></a>
+    <a href="http://im.suxos.org" target="_blank"><img src="./templates/default/images/homepage.gif" border="0" alt="http://im.suxos.org" /></a>
+    
+  </td>
+</tr>
+<tr>
+  <td colspan="2" class="commentspacerrow"><img src="./templates/default/images/spacer.gif" width="1" height="1" alt="" /></td>
+</tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+				  <br />
+				   
+                  
+				  <br />
+				  <br />
+                  <table width="100%" border="0" cellspacing="0" cellpadding="1">
+                    <tr> 
+                      <td class="bordercolor"> 
+                        <table width="100%" border="0" cellspacing="0" cellpadding="3">
+                          <tr valign="top"> 
+                            <td class="row2">
+							  &nbsp;</td>
+                            <td align="right" class="row2">
+							  &nbsp;</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p>
+                </td>
+                <td width="20" valign="top"><img src="./templates/default/images/spacer.gif" width="19" height="19" alt="" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <table width="640" border="0" cellspacing="0" cellpadding="0" class="tablebottom">
+        <tr> 
+          <td width="6"><img src="./templates/default/images/footer_left.gif" width="6" height="19" alt="" /></td>
+          <td width="405">&nbsp;</td>
+          <td width="225">&nbsp;</td>
+          <td width="6"><img src="./templates/default/images/footer_right.gif" width="6" height="19" alt="" /></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td><font size="1">&nbsp;</font> <div align="center"><font size="1"><br>
+        Copyright &copy; DDR Norway, All Rights Reserved. DDR Norway er en del 
+        av <a href="http://www.positivegaming.com">Positive Gaming AS</a>.<br>
+        <a href="http://www.positivegaming.com"><img src="/img/pglogo.gif" alt="Positive Gaming AS" width="224" height="58" border="0"></a> 
+        <br>
+        Info og bilder brukt med tillatelse fra <a href="http://www.konami.com">Konami 
+        Corporation.</a></font></div></td>
+  </tr>
+</table>
+<center><font size="1">Powered by <b>4images</b> 1.7</font>
+  <br />
+  <font size="1">Copyright &copy; 2002 <a href="http://www.4homepages.de" target="_blank">4homepages.de</a></font></center>
+<!--
+<p align="center">
+  <a href="http://validator.w3.org/check/referer"><img src="http://validator.w3.org/images/vxhtml10" height="31" width="88" alt="Valid XHTML 1.0!" border="0" /></a> 
+</p> 
+// -->
+</body>
+</html>

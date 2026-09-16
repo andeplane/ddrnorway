@@ -10,12 +10,13 @@ import json
 import re
 import shutil
 from pathlib import Path
-from urllib.parse import parse_qsl
+from urllib.parse import parse_qsl, unquote
 
 ROOT = Path(__file__).parent
 RAW = ROOT / 'raw'
 OUT = ROOT / 'docs'
-WB = 'https://web.archive.org/web/2007/'   # dead external links go to the archive
+SUB = {'forum': 'forum.html', 'gallery': 'galleri.html', 'multimedia': 'galleri.html', 'wiki': 'leksikon.html',
+       'webshop': 'webshop.html', 'pgshop': 'webshop.html', 'cp': 'cp.html'}
 
 START = '<td valign="top" bgcolor="#FFFFFF" style="padding: 8px 3px 10px 3px;">'
 END = '<td width="12" bgcolor="#0C59A9">&nbsp;</td>'
@@ -56,14 +57,20 @@ def fix_url(u):
         return 'mailto:' + u[7:]
     if re.search(r'%20(at|AT)%20', u):
         return 'mailto:' + re.sub(r'%20(at|AT)%20', '@', re.sub(r'%20(dot|DOT)%20', '.', u))
+    if 'ineptia.net' in u:
+        return 'irc.html'
     u = re.sub(r'^https?://(www\.)?ddrnorway\.no(:80)?/?', '', u)
     if u.startswith(('http://', 'https://')):
-        return u if 'web.archive.org' in u else WB + u
+        return u
     u = u.lstrip('/')
     while u.startswith('../'):
         u = u[3:]
-    if re.match(r'^(forum|gallery|wiki|webshop|multimedia|cp|pgshop)(/|$)', u):
-        return WB + 'http://www.ddrnorway.no/' + u
+    m = re.match(r'^wiki/index\.php\?title=([^&#]+)', u)
+    if m:
+        return wiki_page(unquote(m.group(1)))
+    m = re.match(r'^(forum|gallery|wiki|webshop|multimedia|cp|pgshop)(/|$)', u)
+    if m:
+        return SUB[m.group(1)]
     if u in ('', 'index.php'):
         return 'index.html'
     m = re.match(r'^(?:index\.php)?\?(.*)$', u)
@@ -74,6 +81,114 @@ def fix_url(u):
                 return cand + '.html'
         return '404.html'
     return u
+
+
+def wiki_page(title):
+    if title == 'Hovedside':
+        return 'leksikon.html'
+    return 'leksikon_' + re.sub(r'[^A-Za-z0-9_-]', '_', title) + '.html'
+
+
+def wiki_content(s):
+    i = s.index('<!-- start content -->') + len('<!-- start content -->')
+    j = s.index('<!-- end content -->')
+    c = s[i:j]
+    c = re.sub(r'<div class="editsection".*?</div>', '', c, flags=re.S)
+    c = re.sub(r'<div class="printfooter">.*?</div>', '', c, flags=re.S)
+    c = re.sub(r'<div id="catlinks">.*?</div>', '', c, flags=re.S)
+    c = re.sub(r"<span class='urlexpansion'>.*?</span>", '', c, flags=re.S)
+    return f'<div class="wiki">{c}</div>'
+
+
+def gallery(pages):
+    """Rebuild the 4images photo gallery from archived category/detail pages + media files."""
+    MM = RAW / 'multimedia'
+    if not (MM / 'index.html').exists():
+        return
+    idx = read(MM / 'index.html')
+    cats = {}
+    for cid, name, count, desc in re.findall(
+            r'categories\.php\?cat_id=(\d+)&amp;sessionid=\w+" class="maincat">([^<]+)</a>&nbsp;\((\d+)\)(?:.*?)<span class="smalltext">(.*?)</span>', idx, re.S):
+        cats[int(cid)] = dict(name=html.unescape(name).strip(), count=int(count), desc=html.unescape(re.sub(r'<[^>]+>', '', desc)).strip(), images=[])
+    photos = {}
+    for p in MM.glob('details.php_image_id_*'):
+        d = read(p)
+        iid = int(p.name.rsplit('_', 1)[1])
+        media = re.search(r'src="\./(data/media/(\d+)/[^"]+)"', d)
+        cat = media and re.match(r'.*/media/(\d+)/', media.group(1))
+        title = re.search(r'<title>[^<]*?-\s*([^<]*)</title>', d)
+        if not title:
+            title = re.search(r'<b class="title">([^<]+)</b>', d)
+        text = html.unescape(re.sub(r'<[^>]+>', '\n', re.sub(r'<script.*?</script>|<style.*?</style>', '', d, flags=re.S)))
+        text = re.sub(r'\n\s*\n+', '\n', text)
+        field = lambda k: (re.search(k + r':\s*\n?\s*([^\n]+)', text) or [None, ''])[1].strip()
+        if not media or not (MM / media.group(1)).exists():
+            continue
+        photos[iid] = dict(id=iid, cat=int(cat.group(1)) if cat else 0, media=media.group(1),
+                           title=html.unescape(title.group(1)).strip() if title else f'Bilde {iid}',
+                           desc=field('Description'), date=field('Date'), by=field('Added by'))
+    for p in MM.glob('categories.php_cat_id_*'):
+        c = read(p)
+        cid = int(p.name.rsplit('_', 1)[1])
+        name = re.search(r'<b class="title">([^<]+)</b>', c)
+        desc = re.search(r'</table>\s*<br />\s*([^<(]*?)\s*\(Hits: \d+\)', c)
+        crumbs = re.findall(r'categories\.php\?cat_id=(\d+)&amp;sessionid=\w+" class="clickstream">([^<]+)</a>', c)
+        cat = cats.setdefault(cid, dict(name='', count=0, desc='', images=[]))
+        if name:
+            cat['name'] = html.unescape(name.group(1)).strip()
+        if desc and desc.group(1).strip():
+            cat['desc'] = html.unescape(desc.group(1)).strip()
+        if crumbs:
+            cat['parent'] = html.unescape(crumbs[-1][1]).strip()
+        for iid, thumb, t in re.findall(r'details\.php\?image_id=(\d+)&amp;sessionid=\w+"><img src="\./(data/thumbnails/[^"]+)"[^>]*alt="([^"]*)"', c):
+            iid = int(iid)
+            if iid in photos:
+                photos[iid]['cat'] = photos[iid]['cat'] or cid
+                if (MM / thumb).exists():
+                    photos[iid]['thumb'] = thumb
+    # photos whose detail page was not archived: use folder (=category) and file name
+    known = {ph['media'] for ph in photos.values()}
+    nid = 100000
+    for f in sorted(MM.glob('data/media/*/*')) + sorted(MM.glob('data/thumbnails/*/*')):
+        rel = str(f.relative_to(MM))
+        if rel in known or f.suffix.lower() not in ('.jpg', '.jpeg', '.gif', '.png'):
+            continue
+        if 'thumbnails' in rel and any(k.endswith('/' + f.name) for k in known):
+            continue   # thumbnail of a photo we already have in full size
+        known.add(rel)
+        nid += 1
+        title = re.sub(r'[_-]+', ' ', f.stem).strip()
+        photos[nid] = dict(id=nid, cat=int(f.parent.name), media=rel, title=title, desc='', date='', by='')
+    for ph in photos.values():
+        cats.setdefault(ph['cat'], dict(name='Diverse', count=0, desc='', images=[]))['images'].append(ph)
+    body = '<p><br>Bilder fra DDR Norway-milj&oslash;et: medlemmer, treff og turneringer.</p><ul>'
+    for cid, cat in sorted(cats.items(), key=lambda kv: (kv[1].get('parent', ''), kv[1]['name'])):
+        if not cat['images']:
+            continue
+        parent = f'{html.escape(cat["parent"])} / ' if cat.get('parent') else ''
+        body += (f'<li>{parent}<b><a href="galleri_{cid}.html">{html.escape(cat["name"])}</a></b> ({len(cat["images"])} bilder)'
+                 f'<br><span style="font-size:10px;color:#666">{html.escape(cat["desc"])}</span></li>')
+        grid = '<p><a href="galleri.html">&laquo; Tilbake til galleriet</a></p><table width="100%"><tr>'
+        for n, ph in enumerate(sorted(cat['images'], key=lambda x: x['id'])):
+            src = ph.get('thumb', ph['media'])
+            grid += (f'<td align="center" valign="top" width="25%"><a href="bilde_{ph["id"]}.html">'
+                     f'<img src="bilder/{src}" width="100" border="1" alt="{html.escape(ph["title"])}"></a><br>'
+                     f'<span style="font-size:10px">{html.escape(ph["title"])}</span></td>')
+            if n % 4 == 3:
+                grid += '</tr><tr>'
+            info = ''.join(f'<b>{k}:</b> {html.escape(v)}<br>' for k, v in
+                           (('Beskrivelse', ph['desc']), ('Dato', ph['date']), ('Lagt til av', ph['by'])) if v)
+            pages[f'bilde_{ph["id"]}'] = (f'DDR Norway - {ph["title"]}', section(html.escape(ph['title']),
+                f'<p><a href="galleri_{cid}.html">&laquo; {html.escape(cat["name"])}</a></p>'
+                f'<p align="center"><img src="bilder/{ph["media"]}" style="max-width:100%" border="1" alt="{html.escape(ph["title"])}"></p><p>{info}</p>'))
+        pages[f'galleri_{cid}'] = (f'DDR Norway - {cat["name"]}', section(html.escape(cat['name']), grid + '</tr></table>'))
+    pages['galleri'] = ('DDR Norway - Galleri', section('DDR arkiv', body + '</ul>'))
+    (OUT / 'bilder').mkdir(exist_ok=True)
+    for ph in photos.values():
+        for f in (ph['media'], ph.get('thumb')):
+            if f:
+                (OUT / 'bilder' / f).parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy(MM / f, OUT / 'bilder' / f)
 
 
 def fix_links(s):
@@ -159,6 +274,17 @@ def section(title, body):
             f'{body}\n</td></tr></table>\n')
 
 
+PLAYER_BY_NICK = {}
+
+
+def author_links(c):
+    def sub(m):
+        nick = m.group(1).strip()
+        pid = PLAYER_BY_NICK.get(nick.lower())
+        return f'<a href="spiller_{pid}.html">{nick}</a>' if pid else nick
+    return re.sub(r'''<a href=['"][^'"]*forum/index\.php\?(?:act=Profile|showuser)[^'"]*['"]>([^<]+)</a>''', sub, c)
+
+
 def news_posts(s):
     """Extract forum-news blocks (title, html) in page order."""
     out = []
@@ -180,12 +306,12 @@ def drop_dead(s, base):
         return '' if src and not src.group(1).startswith('http') and not exists(src.group(1)) else m.group(0)
     s = re.sub(r'<img[^>]*>', img, s, flags=re.I)
 
-    def href(m):
-        u = m.group(2)
+    def anchor(m):
+        u = m.group(1)
         if u.startswith(('http', 'mailto:', 'javascript:', '#')) or exists(u):
             return m.group(0)
-        return f'{m.group(1)}{WB}http://www.ddrnorway.no/{u}'
-    return re.sub(r'(href=["\']?)([^"\' >]+)', href, s, flags=re.I)
+        return m.group(2)
+    return re.sub(r'<a\b[^>]*href=["\']?([^"\' >]+)["\']?[^>]*>(.*?)</a>', anchor, s, flags=re.I | re.S)
 
 
 # ---------------------------------------------------------------- ccbs (sesse.net)
@@ -285,7 +411,11 @@ def main():
     (OUT / 'style.css').write_text(
         (RAW / 'assets/style.css').read_text() + '\n\n/* ccbs (results system) */\n' +
         scope_css(read8(RAW / 'ccbs/ccbs.css')) +
-        '\n.quote { font-family: monospace; font-size: 11px; padding: 4px 0; }\n')
+        '\n.quote { font-family: monospace; font-size: 11px; padding: 4px 0; }\n'
+        '.board { border: 1px solid #B2B2B2; margin-bottom: 4px; } .board th { background: #0C59A9; color: #fff; text-align: left; }\n'
+        '.board tr.hdr td { background: #F8C412; font-weight: bold; } .board td { border-bottom: 1px solid #E6E6E6; vertical-align: top; }\n'
+        '.board .desc { font-size: 10px; color: #666; } .board .mod { font-size: 10px; color: #0C59A9; }\n'
+        '.wiki h2 { font-size: 14px; border-bottom: 1px solid #B2B2B2; } .wiki h3 { font-size: 12px; } .wiki table { font-size: 11px; }\n')
 
     # ---- template from the 2007 front page
     src = RAW / 'pages/index2007.html'
@@ -300,6 +430,8 @@ def main():
     tpl = tpl.replace('"http://www.positivegaming.com/score/"', '"resultater.html"')
 
     pages = {}   # name -> (title, content html)
+    players = json.load(open(RAW / 'ccbs/players.json'))
+    PLAYER_BY_NICK.update({pl['nick'].lower(): pl['id'] for pl in players})
 
     # ---- archived content pages
     skip = {'index_shtml', 'irc_index_shtml', 'kontakt_shtml', 'linker_shtml', 'regler_shtml',
@@ -367,6 +499,51 @@ def main():
     pages['ircquote_random'] = ('DDR Norway - IRC Quotes', section(qt, nav + f'''<div id="rq">{qblock(min(quotes))}</div>
 <script>var Q={qjson};document.getElementById("rq").innerHTML=Q[Math.floor(Math.random()*Q.length)];</script>'''))
 
+    # ---- forum index (from the archived board index), webshop, control panel
+    fj = json.load(open(RAW / 'sub/forum.json'))
+    body = ('<p><br><b>Velkommen til forum-delen av DDRNorway.no!</b><br>Det er anbefalt &aring; registrere seg som medlem '
+            'p&aring; forumet. Du oppn&aring;r en rekke fordeler, og det er helt gratis og uten forpliktelser. '
+            'Se <a href="forumregler.html">forumreglene</a> f&oslash;r du poster.</p>\n')
+    for cat in fj['categories']:
+        body += f'<table class="board" width="100%" cellspacing="0" cellpadding="3"><tr><th colspan="4">{html.escape(cat["name"])}</th></tr>' \
+                '<tr class="hdr"><td width="55%">Forum</td><td>Emner</td><td>Svar</td><td>Siste postering</td></tr>'
+        for f in cat['forums']:
+            mod = f' <span class="mod">Forum ledes av: {html.escape(f["mod"])}</span>' if f['mod'] else ''
+            body += (f'<tr><td><b>{html.escape(f["name"])}</b><br><span class="desc">{html.escape(f["desc"])}{mod}</span></td>'
+                     f'<td align="center">{f["topics"]}</td><td align="center">{f["replies"]}</td>'
+                     f'<td><span class="desc">{html.escape(f["last_date"])}</span><br>I: {html.escape(f["last_topic"])}<br>Av: {html.escape(f["last_by"])}</td></tr>')
+        body += '</table><br>'
+    body += f'<p><b>Forumstatistikk:</b> {fj["posts"]} innlegg | {fj["members"]} medlemmer</p>'
+    pages['forum'] = ('DDR Norway - Forum', section('DDR Norways Forum', body))
+
+    shop = read(RAW / 'sub/webshop.html')
+    shop = html.unescape(re.sub(r'<[^>]+>', '\n', re.sub(r'<script.*?</script>|<style.*?</style>', '', shop, flags=re.S)))
+    products = []
+    for name, price in re.findall(r'\n([^\n]+)\n\s*Our price:\s*([\d.]+ SEK)', shop):
+        if (name, price) not in products:
+            products.append((name, price))
+    body = ('<p><br>Nettbutikken drives av Positive Gaming AS og selger dansematter, spill og tilbeh&oslash;r. '
+            'Alle priser er i SEK.</p><table class="board" width="100%" cellspacing="0" cellpadding="3">'
+            '<tr><th>Produkt</th><th>Pris</th></tr>' +
+            ''.join(f'<tr><td>{html.escape(n)}</td><td align="right">{p}</td></tr>' for n, p in products) +
+            '</table><p>Bestilling og sp&oslash;rsm&aring;l: <a href="kontakt.html">kontakt oss</a>.</p>')
+    pages['webshop'] = ('DDR Norway - Webshop', section('Positive Gaming Webshop', body))
+
+    pages['cp'] = ('DDR Norway - Kontrollpanel', section('Kontrollpanel', '''<p><br>Logg inn for &aring; administrere sidene.</p>
+<form onsubmit="return false"><table><tr><td>Brukernavn:</td><td><input type="text" size="20"></td></tr>
+<tr><td>Passord:</td><td><input type="password" size="20"></td></tr>
+<tr><td></td><td><input type="submit" value="Logg inn"></td></tr></table></form>'''))
+
+    # ---- wiki ("DDR-leksikon")
+    for p in sorted((RAW / 'wiki').rglob('*.html')):
+        raw_title = unquote(str(p.relative_to(RAW / 'wiki'))[:-5])
+        title = raw_title.replace('_', ' ')
+        name = wiki_page(raw_title)[:-5]
+        c = wiki_content(read8(p))
+        pages[name] = (f'DDR Norway - {title}', section('DDR-leksikon' if name == 'leksikon' else html.escape(title), c))
+
+    gallery(pages)
+
     # ---- results from ccbs.sesse.net
     NB = RAW / 'ccbs/nb'
     tournaments = json.load(open(RAW / 'ccbs/tournaments.json'))
@@ -383,7 +560,6 @@ def main():
         p = NB / f'tournaments/{t["id"]}.html'
         if p.exists():
             pages[f'turnering_{t["id"]}'] = (f'DDR Norway - {t["name"]}', section(html.escape(t['name']), ccbs_main(read8(p))))
-    players = json.load(open(RAW / 'ccbs/players.json'))
     for pl in players:
         p = NB / f'players/{pl["id"]}.html'
         if p.exists():
@@ -397,7 +573,7 @@ def main():
     LOCAL.update(f'{n}.html' for n in pages)
     tpl = fix_links(tpl)
     for name, (title, c) in pages.items():
-        out = tpl.replace('{{TITLE}}', html.escape(title)).replace('{{CONTENT}}', fix_links(clean_embedded(c)))
+        out = tpl.replace('{{TITLE}}', html.escape(title)).replace('{{CONTENT}}', fix_links(author_links(clean_embedded(c))))
         (OUT / f'{name}.html').write_text(out, 'utf-8')
     for p in OUT.glob('*.html'):
         p.write_text(drop_dead(p.read_text('utf-8'), OUT), 'utf-8')

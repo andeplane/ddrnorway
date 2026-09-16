@@ -1,0 +1,385 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+<title>DDRNorway Multimediagalleri</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="./templates/default/style.css" />
+<script language="javascript" type="text/javascript">
+<!--
+  function opendetailwindow() { 
+    window.open('','detailwindow','toolbar=no,scrollbars=yes,resizable=no,width=680,height=480');
+  }
+// -->
+</script>
+<STYLE type=text/css>
+br, p, form, table, th, tr, body, html { COLOR: white; FONT-FAMILY: Verdana, Arial, Helvetica; FONT-SIZE: 10pt }
+ol, ul, blockquote { FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: white; FONT-SIZE: 10pt }
+A:link { COLOR: 000000; TEXT-DECORATION: none }
+A:visited { COLOR: 000000; TEXT-DECORATION: underline }
+A:active { COLOR: 000000; TEXT-DECORATION: underline }
+A:hover { COLOR: #FFCC99; TEXT-DECORATION: none }
+body { scrollbar-face-color: #FF5400; scrollbar-shadow-color: #FF5400; scrollbar-highlight-color: #FF7531; scrollbar-3dlight-color: #FF7200; scrollbar-darkshadow-color: #FF7200; scrollbar-track-color: #FF7200; scrollbar-arrow-color: #FFFFFF }
+</STYLE>
+</head>
+<body bgcolor="#FF6600" link="#CCCCCC" leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+<br />
+<center><b>.: <a href="/">Tilbake til Hovedsiden</a> : <a href="/forum/">Tilbake til Forumet</a> :.</b></center><br> 
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td> 
+      <table width="640" border="0" cellspacing="0" cellpadding="0" class="tablehead">
+        <tr> 
+          <td colspan="4"><img src="./templates/default/images/header_top.gif" width="640" height="6" alt="" /></td>
+        </tr>
+        <tr> 
+          <td width="6"><img src="./templates/default/images/header_left.gif" width="6" height="60" alt="" /></td>
+          <td width="405"><img src="./templates/default/images/header_logo.gif" width="405" height="60" alt="" /></td>
+          <td width="225" align="right"> 
+            <form method="post" action="./search.php?sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">
+              <table border="0" cellspacing="0" cellpadding="1">
+                <tr> 
+                  <td> 
+                    <input type="text" name="search_keywords" size="15" class="searchinput" />
+                  </td>
+                  <td> 
+                    <input type="submit" value="Search" class="button" name="submit" />
+                  </td>
+                </tr>
+                <tr valign="top"> 
+                  <td colspan="2"><a href="./search.php?sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" class="smalltext">Advanced search</a></td>
+                </tr>
+              </table>
+            </form>
+          </td>
+          <td align="right" width="6"><img src="./templates/default/images/header_right.gif" width="6" height="60" alt="" /></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td class="bordercolor"> 
+      <table width="640" border="0" cellspacing="1" cellpadding="0">
+        <tr> 
+          <td class="tablebgcolor"> 
+            <table width="638" border="0" cellspacing="1" cellpadding="0">
+              <tr> 
+                <td class="navbar" height="23"> 
+                  <table width="636" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td><img src="./templates/default/images/spacer.gif" width="4" height="4" alt="" /><span class="clickstream"><a href="./index.php?sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" class="clickstream">Home</a>&nbsp;/&nbsp;<a href="./categories.php?cat_id=5&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" class="clickstream">Treff</a>&nbsp;/&nbsp;NM 04</span></td>
+                      <td align="right">
+						<a href="./top.php?sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><b>Top images</b></a>&nbsp;
+						<a href="./search.php?search_new_images=1&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><b>New images</b></a>&nbsp;
+					  </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <table width="638" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="150" class="row2" valign="top"> 
+                  <table width="150" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td class="head2" height="20"><img src="./templates/default/images/spacer.gif" alt="" width="4" height="4" />Registered users</td>
+                    </tr>
+                    <tr> 
+                      <td class="tablebgcolor"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" class="row1"><table width="100%" border="0" cellpadding="4" cellspacing="0">
+  <tr> 
+    <td valign="top" align="left"> 
+      <form action="./login.php?sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" method="post">
+        Username:<br />
+        <input type="text" size="10" name="user_name" class="logininput" />
+        <br />
+        Password:<br />
+        <input type="password" size="10" name="user_password" class="logininput" />
+        <br />
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr valign="top"> 
+            <td><input type="checkbox" name="auto_login" value="1" /></td>
+            <td><span class="smalltext">Log me on automatically next visit?</span></td>
+          </tr>
+        </table>
+        <br />
+		<input type="submit" value="Log In" class="button" />
+      </form>
+      &raquo; <a href="./member.php?action=lostpassword&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Forgot password</a><br />
+	  &raquo; <a href="./register.php?sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Registration</a></td>
+  </tr>
+</table>
+ </td>
+                    </tr>
+                    <tr> 
+                      <td class="tablebgcolor"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                    </tr>
+                  </table>
+                  
+                  <table width="150" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td class="head2" height="20"> <img src="./templates/default/images/spacer.gif" alt="" width="4" height="4" />Random image</td>
+                    </tr>
+                    <tr> 
+                      <td class="tablebgcolor"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                    </tr>
+                    <tr> 
+                      <td align="center" class="row1">
+                        <br />
+                        <a href="./details.php?image_id=414&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./templates/default/icons/jpg.gif" border="0" alt="Mange dansere venter" /></a><br />Mange dansere venter<br />
+Comments: 0<br />Zeila
+                        <br />
+                        <br />
+                      </td>
+                    </tr>
+                    <tr> 
+                      <td class="tablebgcolor"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                    </tr>
+                  </table>
+                  
+				</td>
+                <td width="1" class="bordercolor" valign="top"><img src="./templates/default/images/spacer.gif" alt="" width="1" height="1" /></td>
+                <td width="18" valign="top"><img src="./templates/default/images/spacer.gif" alt="" width="18" height="18" /></td>
+                <td width="450" valign="top"><br />
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><b class="title">NM 04</b></td>
+                      <td align="right" valign="bottom"><img src="./templates/default/images/upload_off.gif" border="0" alt="" /></td>
+                    </tr>
+                  </table>
+                  <br /> (Hits: 348) 
+                  <hr size="1" />
+                  
+				  <br />
+				  Found: 10 image(s) on 2 page(s). Displayed: image 1 to 9.
+				  <br />
+				  <br />
+                   
+                  
+				  <table width="450" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td class="head1"><table width="100%" border="0" cellpadding="3" cellspacing="1">
+<tr class="imagerow1">
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=411&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./data/thumbnails/47/NM_i_DDR_2004_026.jpg" border="0" width="100" height="75" alt="Gjett hvem.." /></a> -->
+<a href="./details.php?image_id=411&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./data/thumbnails/47/NM_i_DDR_2004_026.jpg" border="0" width="100" height="75" alt="Gjett hvem.." /></a><br />
+<b>Gjett hvem..</b>  (<a href="./member.php?action=showprofile&amp;user_id=107&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Maxion</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 2<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=409&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./data/thumbnails/47/NM_i_DDR_2004_015.jpg" border="0" width="100" height="75" alt="Glade folk" /></a> -->
+<a href="./details.php?image_id=409&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./data/thumbnails/47/NM_i_DDR_2004_015.jpg" border="0" width="100" height="75" alt="Glade folk" /></a><br />
+<b>Glade folk</b>  (<a href="./member.php?action=showprofile&amp;user_id=107&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Maxion</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 2<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=408&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./data/thumbnails/47/NM_i_DDR_2004_013.jpg" border="0" width="100" height="75" alt="Havok løfter Snute" /></a> -->
+<a href="./details.php?image_id=408&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./data/thumbnails/47/NM_i_DDR_2004_013.jpg" border="0" width="100" height="75" alt="Havok løfter Snute" /></a><br />
+<b>Havok løfter Snute</b>  (<a href="./member.php?action=showprofile&amp;user_id=107&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Maxion</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 0<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+</tr>
+<tr class="imagerow2">
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=407&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./data/thumbnails/47/NM_i_DDR_2004_012.jpg" border="0" width="75" height="100" alt="Havok ser våken ut" /></a> -->
+<a href="./details.php?image_id=407&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./data/thumbnails/47/NM_i_DDR_2004_012.jpg" border="0" width="75" height="100" alt="Havok ser våken ut" /></a><br />
+<b>Havok ser våken ut</b>  (<a href="./member.php?action=showprofile&amp;user_id=107&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Maxion</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 2<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=414&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./templates/default/icons/jpg.gif" border="0" alt="Mange dansere venter" /></a> -->
+<a href="./details.php?image_id=414&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./templates/default/icons/jpg.gif" border="0" alt="Mange dansere venter" /></a><br />
+<b>Mange dansere venter</b>  (<a href="./member.php?action=showprofile&amp;user_id=109&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Zeila</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 0<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=412&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./data/thumbnails/47/NM_i_DDR_2004_033.jpg" border="0" width="100" height="75" alt="Medaljene" /></a> -->
+<a href="./details.php?image_id=412&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./data/thumbnails/47/NM_i_DDR_2004_033.jpg" border="0" width="100" height="75" alt="Medaljene" /></a><br />
+<b>Medaljene</b>  (<a href="./member.php?action=showprofile&amp;user_id=107&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Maxion</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 0<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+</tr>
+<tr class="imagerow1">
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=416&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./templates/default/icons/jpg.gif" border="0" alt="Oddgeir med veske!" /></a> -->
+<a href="./details.php?image_id=416&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./templates/default/icons/jpg.gif" border="0" alt="Oddgeir med veske!" /></a><br />
+<b>Oddgeir med veske!</b>  (<a href="./member.php?action=showprofile&amp;user_id=109&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Zeila</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 0<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=410&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./data/thumbnails/47/NM_i_DDR_2004_016.jpg" border="0" width="100" height="75" alt="Premiebordet" /></a> -->
+<a href="./details.php?image_id=410&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./data/thumbnails/47/NM_i_DDR_2004_016.jpg" border="0" width="100" height="75" alt="Premiebordet" /></a><br />
+<b>Premiebordet</b>  (<a href="./member.php?action=showprofile&amp;user_id=107&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Maxion</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 1<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+<td width="34%" valign="top">
+<!-- you wish detail page in a small javascript open window, use <a href="./details.php?image_id=413&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29" onclick="opendetailwindow()" target="detailwindow"><img src="./data/thumbnails/47/NM_i_DDR_2004_056.jpg" border="0" width="75" height="100" alt="Snute og Ylini" /></a> -->
+<a href="./details.php?image_id=413&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29"><img src="./data/thumbnails/47/NM_i_DDR_2004_056.jpg" border="0" width="75" height="100" alt="Snute og Ylini" /></a><br />
+<b>Snute og Ylini</b>  (<a href="./member.php?action=showprofile&amp;user_id=107&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">Maxion</a>)
+<br />
+<a href="./categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">NM 04</a><br />
+Comments: 0<br />
+<img src="./templates/default/images_english/lightbox_off.gif" border="0" alt="" />
+</td>
+</tr>
+</table>
+</td>
+                    </tr>
+                  </table>
+				  
+                  <br />
+				  <b class="pagingon">1</b>&nbsp;&nbsp;<a href="categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29&amp;page=2" class="paging">2</a>&nbsp;&nbsp;<a href="categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29&amp;page=2" class="paging">&raquo;</a>&nbsp;&nbsp;<a href="categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29&amp;page=2" class="paging">Last page &raquo;</a>
+				  <br />
+				  <br />
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td><form method="post" name="jumpbox" action="./categories.php?sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td valign="bottom">
+<select name="cat_id" onchange="if (this.options[this.selectedIndex].value != 0){ forms['jumpbox'].submit() }" class="categoryselect">
+<option value="0">Select category</option>
+<option value="0">-------------------------------</option>
+<option value="3" class="dropdownmarker">Medlemmer</option>
+<option value="4" class="dropdownmarker">Briefebilder</option>
+<option value="5" class="dropdownmarker">Treff</option>
+<option value="10">-- Youngstorget Juli 2003!</option>
+<option value="26">-- DDRUK VS DDRNORWAY - Englandstur</option>
+<option value="35">-- Lagturnering i ski</option>
+<option value="38">-- London januar 04</option>
+<option value="39">-- Into the Light - Februar 04</option>
+<option value="42">-- Sommertur til Lillehammer 2004</option>
+<option value="44">---- Grillfest</option>
+<option value="46">---- Turnering</option>
+<option value="47" selected="selected">-- NM 04</option>
+<option value="6" class="dropdownmarker">Diverse</option>
+<option value="17">-- Tegninger</option>
+<option value="7" class="dropdownmarker">Steder</option>
+<option value="11">-- Oslo</option>
+<option value="12">-- Drammen</option>
+<option value="13">-- Follo</option>
+<option value="49">---- Stiftelsesmøte for DDR Hardcore</option>
+<option value="51">---- Maraton #2</option>
+<option value="14">-- Tønsberg</option>
+<option value="15">-- Trondheim</option>
+<option value="16">-- Bergen</option>
+<option value="37">-- Tromsø</option>
+<option value="41">-- Lillehammer</option>
+<option value="24" class="dropdownmarker">Challenge Cup</option>
+<option value="25">-- Drammen Bowling (03/08 2003)</option>
+<option value="33">-- Oslo Bowling (02/11 2003)</option>
+<option value="34">-- Oslo Bowling (23/11 2003)</option>
+<option value="36">-- Challenge cup #8</option>
+<option value="40">-- CC #1 2004</option>
+<option value="50">-- CC#6 2004</option>
+<option value="27" class="dropdownmarker">Morobilder</option>
+<option value="28">-- Mislykkede bilder</option>
+<option value="29">-- Morsomme bilder</option>
+<option value="31">-- Tegninger ol.</option>
+</select>
+</td>
+      <td valign="top"> 
+        <input type="submit" value="Go" class="button" />
+      </td>
+    </tr>
+  </table>
+</form>
+</td>
+                      <td align="right"><form method="post" action="categories.php?cat_id=47&amp;sessionid=cef46cdd2b1f8423d7c3c2844cea3b29">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td>Images per page:&nbsp;</td>
+      <td>
+<select name="setperpage" class="setperpageselect">
+<option value="3">3</option>
+<option value="6">6</option>
+<option value="9" selected="selected">9</option>
+<option value="12">12</option>
+<option value="15">15</option>
+<option value="18">18</option>
+<option value="21">21</option>
+<option value="24">24</option>
+<option value="27">27</option>
+<option value="30">30</option>
+</select>
+<input type="hidden" name="cat_id" value="47" />
+</td>
+      <td> 
+        <input type="submit" value="Go" class="button" name="submit" />
+      </td>
+    </tr>
+  </table>
+</form>
+</td>
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p>
+				</td>
+                <td width="19" valign="top"><img src="./templates/default/images/spacer.gif" alt="" width="19" height="19" /></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <table width="640" border="0" cellspacing="0" cellpadding="0" class="tablebottom">
+        <tr> 
+          <td width="6"><img src="./templates/default/images/footer_left.gif" width="6" height="19" alt="" /></td>
+          <td width="405">&nbsp;</td>
+          <td width="225">&nbsp;</td>
+          <td width="6"><img src="./templates/default/images/footer_right.gif" width="6" height="19" alt="" /></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td><font size="1">&nbsp;</font> <div align="center"><font size="1"><br>
+        Copyright &copy; DDR Norway, All Rights Reserved. DDR Norway er en del 
+        av <a href="http://www.positivegaming.com">Positive Gaming AS</a>.<br>
+        <a href="http://www.positivegaming.com"><img src="/img/pglogo.gif" alt="Positive Gaming AS" width="224" height="58" border="0"></a> 
+        <br>
+        Info og bilder brukt med tillatelse fra <a href="http://www.konami.com">Konami 
+        Corporation.</a></font></div></td>
+  </tr>
+</table>
+<center><font size="1">Powered by <b>4images</b> 1.7</font>
+  <br />
+  <font size="1">Copyright &copy; 2002 <a href="http://www.4homepages.de" target="_blank">4homepages.de</a></font></center>
+<!--
+<p align="center">
+  <a href="http://validator.w3.org/check/referer"><img src="http://validator.w3.org/images/vxhtml10" height="31" width="88" alt="Valid XHTML 1.0!" border="0" /></a> 
+</p> 
+// -->
+</body>
+</html>

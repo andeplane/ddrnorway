@@ -1,0 +1,432 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Positive Gaming Webshop</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="fresh-layout.css" type="text/css">
+	
+	<script type="text/javascript">
+	function changepic() {
+	if (document.getElementById("swappic").wibble != "1") {
+	document.getElementById("swappic").src = "img/ads/dsm.gif"
+	document.getElementById('adlink').href = "index.php?viewitem=51"
+	document.getElementById("swappic").wibble = "1";
+	}
+	setTimeout("changepic()",6000);
+	}
+	</script>
+	
+</head>
+<body onload="changepic();">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td style="padding: 2px 0 4px 4px;">
+		<table border="0" align="right" cellpadding="0" cellspacing="10">
+		<tr>
+			<td class="quicklinks"><img src="img/icon_login.gif" width="29" height="18" border="0" align="absbottom"> <a href='index.php?login'>Log in</a>			</td>
+			<td class="quicklinks"><img src="img/icon_basket.gif" width="29" height="18" border="0" align="absbottom"> <a href="index.php?viewcart">Shopping Cart</a></td>
+			<td class="quicklinks"><img src="img/icon_help.gif" width="29" height="18" border="0" align="absbottom"> <a href="index.php?infocenter">Info Center</a></td>
+			<td class="quicklinks"><img src="img/icon_email.gif" width="29" height="18" border="0" align="absbottom"> <a href="index.php?custompage=contactus">Contact Us</a></td>
+		</tr>
+		</table>
+		<a href="/"><img src="img/logo.gif" border=0></a>
+	</td>
+</tr>
+<tr align="center">
+	<td style="padding-bottom: 8px;">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td height="27" style="background-image: url(img/tab_back.gif); background-position: bottom; background-repeat: repeat-x;" align="center">
+				<div id="navcontainer" align="center">
+					<ul id="navlist">
+						<li><a href="index.php?catid=-5" id='active'>Home</a></li>
+						<li><a href='index.php?catid=2'>Dance Pads</a></li>
+						<li><a href='index.php?catid=9'>Games</a></li>
+						<li><a href='index.php?catid=4'>Accessories</a></li>
+						<li><a href='index.php?catid=21' id='bundles'>Bundles</a></li>
+					</ul>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" height="29" align="center" background="img/tab_bar.gif" class="subcats"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+	<td width="210" align="right" style="padding-left: 10px;">
+		<table width="200" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="left" class="box_top">Search</td>
+		</tr>
+		<tr>
+			<td align="left" class="box_content">
+				<br>
+				<form method="post" action="index.php" name="searchform">
+				<!--
+				<select name="select">
+				<option selected>All Products</option>
+				</select>
+				<br>
+				-->
+				<table>
+				<tr><td><input type="text" class="inputbox searchfield" name="searchterm"></td><td><table height="21" border="0" cellpadding="0" cellspacing="0">
+						<tr align="center" valign="middle">
+							<td width="5" height="21" background="/shop/img/buttons/grey_medium_left.gif"></td>
+							<td height="21" background="/shop/img/buttons/grey_medium_back.gif" style="font-size: 10px; font-weight: bold; color: #000000;" class="button_grey"><a href='#' onClick='searchform.submit()'>Search &raquo;</a></td>
+							<td width="5" height="21" background="/shop/img/buttons/grey_medium_right.gif"></td>
+						</tr>
+				</table></td></tr>
+				</table>
+				</form>
+			</td>
+		</tr>
+		</table><br>
+		<table width="200" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="left" class="box_top">Shopping Cart</td>
+		</tr>
+		<tr>
+			<td align="left" class="box_content">
+				<table class='nondetailed_cart_table'>
+				<tr><td class='noitems' colspan='4'>The shopping cart is empty</td></tr>
+				<tr><td colspan='4'><hr size=1></td></tr>
+				<tr><td colspan='3' class='nondetailed_cart_summarylabel'>Subtotal:</td><td class='nondetailed_cart_summaryvalue'>0.00 SEK</td></tr>
+				<tr><td colspan='3' class='nondetailed_cart_summarylabel'>Total:</td><td class='nondetailed_cart_summaryvalue'>0.00 SEK</td></tr>
+				</table><br/><div style='text-align: right'><table height="21" border="0" cellpadding="0" cellspacing="0">
+					<tr align="center" valign="middle">
+						<td width="5" height="21" background="/shop/img/buttons/green_medium_left.gif"></td>
+						<td height="21" background="/shop/img/buttons/green_medium_back.gif" style="font-size: 10px; font-weight: bold; color: #000000;" class="button_green"><a href='index.php?checkout=1'>Checkout &raquo;</a></td>
+						<td width="5" height="21" background="/shop/img/buttons/green_medium_right.gif"></td>
+					</tr>
+				</table></div><br/>				<center>Currency Converter<br>
+				<a href='?currency=EUR'><img src="img/eur.gif"></a> | <a href='?currency=NOK'><img src="img/nok.gif"></a> | <a href='?currency=GBP'><img src="img/gbp.gif"></a> | <a href='?currency=USD'><img src="img/usd.gif"></a><br>
+				<br>
+			</td>
+		</tr>
+		</table><br>
+		<table width="200" height="" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="top" height='13'>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td width="14" class="box_top_main_left">&nbsp;</td>
+					<td class="box_top_main">Info Center</td>
+					<td width="14" class="box_top_main_right">&nbsp;</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="box_content_main" valign='top' height='100%'>
+				<br>
+				
+				If you have any questions about orders, delivery or purchases check our <a href=?infocenter>Infocenter</a>.
+				<br>
+				<br>
+			</td>
+		</tr>
+		</table>
+		<br>
+	</td>
+	<td width='100%' style="padding: 0 10px;">
+		
+		<table width=100% border='0' cellpadding=0>
+		<tr>
+			<td valign=top>
+				<table  width="100%" height="250" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+					<a href="http://www.positivegaming.com/shop/index.php?viewitem=63"><img src="img/ads/itgad/del.gif" alt=""></a></td>
+					<td style="background: url(img/ads/itgad/bg.jpg); background-repeat: repeat-x;" width="100%"></td>
+					<td>
+					<a href="http://www.positivegaming.com/shop/index.php?viewitem=63"><img src="img/ads/itgad/del2.gif" alt=""></a></td>
+				</tr>
+				<!--tr>
+				<td>
+				<a href="http://positivegaming.com/shop/?custompage=arcade"><img src="img/ads/itgad/del.gif" width="521" height="250" alt=""></a></td>
+				<td style="background: url(img/ads/itgad/bg.jpg); background-repeat: repeat-x;" width="100%"></td>
+				<td>
+				<a href="http://positivegaming.com/shop/?custompage=arcade"><img src="img/ads/itgad/del2.gif" width="197" height="250" alt=""></a></td>
+			</tr-->
+		</table></td>
+	</tr>
+	</table>
+	<table width=100% border='0' cellpadding=0>
+	<tr>
+		<td valign=top>
+			<table width="100%" height="120" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign="top" height='13'>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="14" class="box_top_main_left">&nbsp;</td>
+						<td class="box_top_main"><b>NEW! Finally Available, In The Groove for PC and Mac, and the PG IMPACT Dance Pad</b></td>
+						<td width="14" class="box_top_main_right">&nbsp;</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="box_content_main" valign='top' height='100%'>
+					<table width='100%' border=0>
+					<tr>
+						<td width='50%' align='center' valign='top'>
+							<table border=0>
+							<tr>
+								<td valign="top" align="center"><a href='index.php?viewitem=62'><img src='items/thumbs/DVDcase.jpg' alt='In The Groove PC/MAC Game'/></a></td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<span class='categoryentry_namesmall'><a href='index.php?viewitem=62'>In The Groove PC/MAC Game</a></span><br>
+									<b>Our price:</b> 266.00 SEK<br/><br/>
+								</td>
+							</tr>
+							</table>
+						</td>
+						<td width='50%' align='center' valign='top'>
+							<table border=0>
+							<tr>
+								<td valign="top" align="center"><a href='index.php?viewitem=60'><img src='items/thumbs/Impact_final.jpg' alt='Positive Gaming Impact Dance Pad'/></a></td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<span class='categoryentry_namesmall'><a href='index.php?viewitem=60'>Positive Gaming Impact Dance Pad</a></span><br>
+									<b>Our price:</b> 228.00 SEK<br/><br/>
+								</td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+	<table width=100% border='0' cellpadding=0>
+	<tr>
+	</tr>
+	</table>
+	<table width=100% border='0' cellpadding=0>
+	<tr>
+		<td valign=top>
+			<table width="100%" height="" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign="top" height='13'>
+					<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td width="14" class="box_top_main_left">&nbsp;</td>
+						<td class="box_top_main">Can't play without a game!</td>
+						<td width="14" class="box_top_main_right">&nbsp;</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="box_content_main" valign='top' height='100%'>
+					<table width='100%' border=0>
+					<tr>
+						<td width='25%' align='center' valign='top'>
+							<table border=0>
+							<tr>
+								<td valign="top" align="center"><a href='index.php?viewitem=62'><img src='items/thumbs/DVDcase.jpg' alt='In The Groove PC/MAC Game'/></a></td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<span class='categoryentry_namesmall'><a href='index.php?viewitem=62'>In The Groove PC/MAC Game</a></span><br>
+									<b>Our price:</b> 266.00 SEK<br/><br/>
+								</td>
+							</tr>
+							</table>
+						</td>
+						<td width='25%' align='center' valign='top'>
+							<table border=0>
+							<tr>
+								<td valign="top" align="center"><a href='index.php?viewitem=10'><img src='items/thumbs/Extreme.jpg' alt='Dance Dance Revolution (DDR) Extreme (NTSC)'/></a></td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<span class='categoryentry_namesmall'><a href='index.php?viewitem=10'>Dance Dance Revolution (DDR) Extreme (NTSC)</a></span><br>
+									<b>Our price:</b> 461.20 SEK<br/><br/>
+								</td>
+							</tr>
+							</table>
+						</td>
+						<td width='25%' align='center' valign='top'>
+							<table border=0>
+							<tr>
+								<td valign="top" align="center"><a href='index.php?viewitem=50'><img src='items/thumbs/ITG.jpg' alt='In The Groove (ITG) (PS2 - NTSC)'/></a></td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<span class='categoryentry_namesmall'><a href='index.php?viewitem=50'>In The Groove (ITG) (PS2 - NTSC)</a></span><br>
+									<b>Our price:</b> 419.20 SEK<br/><br/>
+								</td>
+							</tr>
+							</table>
+						</td>
+						<td width='25%' align='center' valign='top'>
+							<table border=0>
+							<tr>
+								<td valign="top" align="center"><a href='index.php?viewitem=51'><img src='items/thumbs/DSM-screenshot (3).jpg' alt='Dancing Stage Max (PAL)'/></a></td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<span class='categoryentry_namesmall'><a href='index.php?viewitem=51'>Dancing Stage Max (PAL)</a></span><br>
+									<b>Our price:</b> 335.20 SEK<br/><br/>
+								</td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+	<table width=100% border='0' cellpadding=0>
+	<tr>
+		<td valign=top>
+			<a id="adlink" href="http://positivegaming.com/shop/index.php?viewitem=51">
+			<table width=100% cellspacing=0 cellpadding=0 style='cursor: pointer; border: 1px solid #164D85'>
+			<tr>
+				<!-- <td align=left background='img/opening_offer_background.gif'><img src="img/bannernew.gif"></td> -->
+				<td style="background-color:#6D4F87;" align=left><center><img id="swappic" src="img/ads/dsm.gif" alt="Dancing Stage MAX"></center></a></td>
+				<!-- <td align=right background='img/opening_offer_background.gif'></td> -->
+			</tr>
+			</table>
+			</a>
+			
+		</td>
+	</tr>
+	</table>
+	
+</td>
+<td width="210" style="padding-right: 10px;">
+	
+	<table width="200" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td align="left" class="box_top">Top Sellers</td>
+	</tr>
+	<tr>
+		<td align="left" class="box_content">
+			<ol id="topsellerslist">
+			<li><a href='index.php?viewitem=19'>Trio Linker Plus</a></li>
+			<li><a href='index.php?viewitem=1'>Cobalt Flux Dance Platform (Classic)</a></li>
+			<li><a href='index.php?viewitem=52'>Cobalt Flux Dance Platform (Arcade - Black)</a></li>
+			<li><a href='index.php?viewitem=60'>Positive Gaming Impact Dance Pad</a></li>
+			<li><a href='index.php?viewitem=62'>In The Groove PC/MAC Game</a></li>
+			</ol>
+		</td>
+	</tr>
+	</table><br>
+	<table width="200" height="" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td valign="top" height='13'>
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="14" class="box_top_main_left">&nbsp;</td>
+				<td class="box_top_main">ITG for PC and MAC</td>
+				<td width="14" class="box_top_main_right">&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="box_content_main" valign='top' height='100%'>
+			<table width='100%' border=0><tr><td width='100%' align='center'><table border=0>
+					<tr>
+						<td valign="top" align="center"><a href='index.php?viewitem=62'><img src='items/thumbs/DVDcase.jpg' alt='In The Groove PC/MAC Game'/></a></td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<span class='categoryentry_namesmall'><a href='index.php?viewitem=62'>In The Groove PC/MAC Game</a></span><br>
+							<b>Our price:</b> 266.00 SEK<br/><br/>
+						</td>
+					</tr>
+		</table></td></tr></table>Tons of new features!		</td>
+	</tr>
+	</table>
+	<br>
+	<table width="200" height="" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td valign="top" height='13'>
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="14" class="box_top_main_left">&nbsp;</td>
+				<td class="box_top_main">PG Impact Soft-Pad</td>
+				<td width="14" class="box_top_main_right">&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="box_content_main" valign='top' height='100%'>
+			<table width='100%' border=0><tr><td width='100%' align='center'><table border=0>
+					<tr>
+						<td valign="top" align="center"><a href='index.php?viewitem=60'><img src='items/thumbs/Impact_final.jpg' alt='Positive Gaming Impact Dance Pad'/></a></td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<span class='categoryentry_namesmall'><a href='index.php?viewitem=60'>Positive Gaming Impact Dance Pad</a></span><br>
+							<b>Our price:</b> 228.00 SEK<br/><br/>
+						</td>
+					</tr>
+		</table></td></tr></table>The most durable soft-pad available.		</td>
+	</tr>
+	</table>
+	<br>
+	<br/>
+</td>
+</tr>
+</table>
+
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td style="padding: 10px 0;">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td height="1" colspan="3" style="background-image: url(img/tab_back.gif); background-position: bottom; background-repeat: repeat-x;"></td>
+	</tr>
+	<tr>
+		<td width="100%" height="29" align="center" background="img/tab_bar.gif"></td>
+	</tr>
+	</table>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding-bottom: 10px; padding-right: 10px;">
+	
+	<table border="0" width="100%">
+	<tr>
+		<td>
+			<script src='https://seal.verisign.com/getseal?host_name=www.positivegaming.com&size=M&use_flash=YES&use_transparent=YES&lang=en'></script>
+		</td>
+		<td width="100%" align="center">
+			<a href='http://www.posten.se/index.jsp?PageName=eng_index&language=2' target='_new'><img src='img/postenlogo.gif'></a> <a href='http://www.visa.com/' target='_new'><img border='0' src="img/visalogo.gif"></a> <a href='http://www.mastercard.com/' target='_new'><img border='0' src="img/mastercardlogo.gif"></a><br/><br/>
+			
+			<span style="font-size: 11px;">Copyright &copy; 2002 - 2007 Positive Gaming AS. All rights reserved.<br>
+			Webshop developed by <a href="http://www.deepercode.com/" target="_blank">Deeper Code</a>.</span>
+		</td>
+		
+		<td>
+			<a href="http://www.positivegaming.com/" target="_parent"><img src="img/dancepad_small.gif" border="0" alt="Back to front page" align="right"></a>
+		</td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+<br>
+</body>
+</html>
+

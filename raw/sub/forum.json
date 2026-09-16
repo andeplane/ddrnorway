@@ -1,0 +1,389 @@
+{
+ "categories": [
+  {
+   "id": 31,
+   "name": "DDR Norway",
+   "forums": [
+    {
+     "id": 3,
+     "name": "Nyheter",
+     "desc": "",
+     "mod": "",
+     "topics": 350,
+     "replies": 5938,
+     "last_date": "I dag, 02:50 PM",
+     "last_topic": "Forum oppe igjen!",
+     "last_by": "Snute"
+    },
+    {
+     "id": 5,
+     "name": "Tilbakemelding",
+     "desc": "Har du noe på hjertet ang. DDRNO, si det her...",
+     "mod": "",
+     "topics": 101,
+     "replies": 970,
+     "last_date": "Thursday 28. September 2006, 09:22",
+     "last_topic": "DDRnorway.no",
+     "last_by": "matsi"
+    },
+    {
+     "id": 25,
+     "name": "Arrangementer",
+     "desc": "Her postes alle DDR-relaterte arrangementer",
+     "mod": "",
+     "topics": 56,
+     "replies": 1000,
+     "last_date": "Sunday 28. May 2006, 14:24",
+     "last_topic": "27. mai - Crash/Nonstop tur...",
+     "last_by": "uSimen"
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Generelt",
+   "forums": [
+    {
+     "id": 4,
+     "name": "Generell Prat",
+     "desc": "Alt som ikke passer noe annet sted på forumet...",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 375,
+     "replies": 7383,
+     "last_date": "I dag, 04:36 PM",
+     "last_topic": "2006 og dets meritter :D",
+     "last_by": "jonanders"
+    },
+    {
+     "id": 23,
+     "name": "Treff",
+     "desc": "Lyst til å avtale treff med noen? Gjør det her!",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 103,
+     "replies": 1064,
+     "last_date": "Thursday 23. November 2006, 14:45",
+     "last_topic": "Veitvet-tråden",
+     "last_by": "LuRiOuS"
+    },
+    {
+     "id": 29,
+     "name": "International",
+     "desc": "English please!",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 12,
+     "replies": 71,
+     "last_date": "Thursday 2. February 2006, 17:38",
+     "last_topic": "Hello again from the US!",
+     "last_by": "Snute"
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Arkademaskinen",
+   "forums": [
+    {
+     "id": 9,
+     "name": "Generell Prat",
+     "desc": "Generell prat om Dance Dance Revolution / Dancing Stage",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 62,
+     "replies": 1089,
+     "last_date": "Friday 10. November 2006, 16:46",
+     "last_topic": "Steder hvor DDR er!",
+     "last_by": "Alexx"
+    },
+    {
+     "id": 51,
+     "name": "DDR Extreme",
+     "desc": "Alt om DDR Extreme her",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 10,
+     "replies": 1331,
+     "last_date": "Sunday 24. December 2006, 02:58",
+     "last_topic": "Andeplane's Video Thread.",
+     "last_by": "Jurgemaister"
+    },
+    {
+     "id": 52,
+     "name": "Euromix 2",
+     "desc": "Alt om Dancing Stage Euromix 2 her",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 14,
+     "replies": 1640,
+     "last_date": "Saturday 7. October 2006, 17:58",
+     "last_topic": "Brifetråd for Euromix2",
+     "last_by": "Duckling"
+    },
+    {
+     "id": 54,
+     "name": "DS:Fusion",
+     "desc": "Alt om Dancing Stage Fusion (Euromix 3)",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 11,
+     "replies": 120,
+     "last_date": "Monday 10. April 2006, 20:12",
+     "last_topic": "Og plutselig kom det \"blå\" ...",
+     "last_by": "cuivien"
+    },
+    {
+     "id": 60,
+     "name": "In The Groove",
+     "desc": "Alt om In The Groove her",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 11,
+     "replies": 891,
+     "last_date": "I dag, 02:56 PM",
+     "last_topic": "Briefetråd for ITG 2.0 arcade",
+     "last_by": "jonanders"
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Offisielle klubber",
+   "forums": [
+    {
+     "id": 36,
+     "name": "Crash DDR",
+     "desc": "Offisiell DDR-klubb lokalisert i Sandefjord",
+     "mod": "Forum ledes av:  SLC",
+     "topics": 32,
+     "replies": 300,
+     "last_date": "Friday 4. August 2006, 19:27",
+     "last_topic": "AAA's",
+     "last_by": "SLC"
+    },
+    {
+     "id": 28,
+     "name": "DDR Ninjas",
+     "desc": "Offisiell DDR-klubb lokalisert i Lillehammer",
+     "mod": "Forum ledes av:  DDR Ninjas Crew",
+     "topics": 67,
+     "replies": 2066,
+     "last_date": "Sunday 10. December 2006, 21:04",
+     "last_topic": "TG07",
+     "last_by": "Edee"
+    },
+    {
+     "id": 17,
+     "name": "DDR Hardcore",
+     "desc": "Offisiell DDR-klubb lokalisert i Oslo",
+     "mod": "Forum ledes av:  Smiph, matsi",
+     "topics": 147,
+     "replies": 2139,
+     "last_date": "Thursday 2. November 2006, 09:57",
+     "last_topic": "ITG på Ski Bowling",
+     "last_by": "virkupp"
+    },
+    {
+     "id": 24,
+     "name": "Fredrikstad DDR Badgers",
+     "desc": "",
+     "mod": "Forum ledes av:  Simon",
+     "topics": 20,
+     "replies": 192,
+     "last_date": "Wednesday 12. October 2005, 23:10",
+     "last_topic": "FREEPLAY",
+     "last_by": "Takkie"
+    },
+    {
+     "id": 20,
+     "name": "Nonstop DDR",
+     "desc": "Offisiell-DDR klubb lokalisert i Tønsberg",
+     "mod": "Forum ledes av:  Nonstop DDR Crew",
+     "topics": 58,
+     "replies": 857,
+     "last_date": "Friday 28. July 2006, 04:24",
+     "last_topic": "Medlemmer i NonstopDDR",
+     "last_by": "elan"
+    },
+    {
+     "id": 18,
+     "name": "Nidaros maskindansarlaug",
+     "desc": "Offisiell DDR-klubb lokalisert i Trondheim",
+     "mod": "Forum ledes av:  Sesse",
+     "topics": 42,
+     "replies": 690,
+     "last_date": "Friday 9. June 2006, 05:07",
+     "last_topic": "Maskina på Dora Bowling bli...",
+     "last_by": "onle"
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "DDR i hjemmet",
+   "forums": [
+    {
+     "id": 50,
+     "name": "Generell prat",
+     "desc": "Prate om ting som ikke passer inn i de andre kategoriene",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 17,
+     "replies": 105,
+     "last_date": "Monday 18. December 2006, 16:20",
+     "last_topic": "SELGER NOEN SPILL OG DVD...",
+     "last_by": "Haggar"
+    },
+    {
+     "id": 10,
+     "name": "PC-simulatorer",
+     "desc": "DWI, SM og alle de andre...",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 52,
+     "replies": 1398,
+     "last_date": "Tuesday 26. December 2006, 12:30",
+     "last_topic": "Briefetråden for DWI og SM!",
+     "last_by": "Nameless"
+    },
+    {
+     "id": 21,
+     "name": "Hvordan lage DWI-filer",
+     "desc": "Hvis du lurer på noe når det gjelder å lage DWI-filer, eller vil vise fram din kreasjon.",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 17,
+     "replies": 300,
+     "last_date": "Monday 13. November 2006, 08:44",
+     "last_topic": "Mine DWI's 2",
+     "last_by": "Eruanna"
+    },
+    {
+     "id": 49,
+     "name": "Dansematter/Adaptere",
+     "desc": "Prat om dansematter/adaptere foregår her",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 62,
+     "replies": 433,
+     "last_date": "Monday 25. December 2006, 20:48",
+     "last_topic": "cobalt flux problem",
+     "last_by": "Killer-Jostein"
+    },
+    {
+     "id": 58,
+     "name": "Konsoller",
+     "desc": "DDR på konsoller (XBOX, Playstation, Gamecube etc..)",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 7,
+     "replies": 34,
+     "last_date": "Thursday 22. June 2006, 17:13",
+     "last_topic": "Lite problem med ITG",
+     "last_by": "virkupp"
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Bemani",
+   "forums": [
+    {
+     "id": 11,
+     "name": "Generell prat",
+     "desc": "Diverse prat om forskjellige Bemani-spill. Norge har foreløpig kun ett bemani-spill, nemlig Para Para. Se egen tråd under.",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 7,
+     "replies": 59,
+     "last_date": "Thursday 13. October 2005, 16:57",
+     "last_topic": "Beatmania IIDX",
+     "last_by": "RiChY"
+    },
+    {
+     "id": 13,
+     "name": "Para Para Paradise",
+     "desc": "Wave your hands if you just don't care...",
+     "mod": "Forum ledes av:  WebCrew",
+     "topics": 20,
+     "replies": 394,
+     "last_date": "Friday 1. July 2005, 10:18",
+     "last_topic": "Para Para Paradise i Norge",
+     "last_by": "draconia"
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Uoffisielle klubber",
+   "forums": [
+    {
+     "id": 19,
+     "name": "DDR Bergen",
+     "desc": "",
+     "mod": "",
+     "topics": 7,
+     "replies": 120,
+     "last_date": "Saturday 29. January 2005, 20:07",
+     "last_topic": "Starte selv...",
+     "last_by": "draconia"
+    },
+    {
+     "id": 16,
+     "name": "DDR Buskerud",
+     "desc": "",
+     "mod": "Forum ledes av:  lejordet",
+     "topics": 8,
+     "replies": 61,
+     "last_date": "Thursday 16. February 2006, 09:08",
+     "last_topic": "Spillere i Buskerud",
+     "last_by": "darlaa"
+    },
+    {
+     "id": 38,
+     "name": "DDR Gjøvik",
+     "desc": "",
+     "mod": "",
+     "topics": 1,
+     "replies": 11,
+     "last_date": "Tuesday 26. April 2005, 08:09",
+     "last_topic": "DDR Gjøvik?",
+     "last_by": "rogga"
+    },
+    {
+     "id": 39,
+     "name": "DDR Gjerdrum & Jessheim",
+     "desc": "",
+     "mod": "",
+     "topics": 1,
+     "replies": 2,
+     "last_date": "Saturday 14. October 2006, 01:36",
+     "last_topic": "Trenger steps!",
+     "last_by": "Nuust"
+    },
+    {
+     "id": 37,
+     "name": "DDR Grenland",
+     "desc": "",
+     "mod": "",
+     "topics": 13,
+     "replies": 212,
+     "last_date": "Wednesday 27. September 2006, 13:34",
+     "last_topic": "Danser noen i skien/porsgru...",
+     "last_by": "Athena"
+    },
+    {
+     "id": 59,
+     "name": "DDR Vikings Haugesund",
+     "desc": "",
+     "mod": "",
+     "topics": 11,
+     "replies": 148,
+     "last_date": "Thursday 31. August 2006, 03:20",
+     "last_topic": "turnering?",
+     "last_by": "DDRLOVER"
+    },
+    {
+     "id": 61,
+     "name": "Stavanger Maskindanser Klubb",
+     "desc": "",
+     "mod": "Forum ledes av:  DDRLOVER",
+     "topics": 7,
+     "replies": 66,
+     "last_date": "Wednesday 29. November 2006, 06:32",
+     "last_topic": "hi!",
+     "last_by": "jonanders"
+    }
+   ]
+  }
+ ],
+ "posts": 35223,
+ "members": 777
+}

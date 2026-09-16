@@ -190,3 +190,7 @@ color: #FF9900;
 }
 .ccbs .main { margin-left: 0; } .ccbs table { margin-left: 0.5em; } .ccbs h2 { font-size: 14px; } .ccbs ul { padding-left: 1.5em; } .ccbs, .ccbs table { font-family: Verdana, Arial, Helvetica, sans-serif; } .ccbs table { font-size: 10px; } .ccbs th, .ccbs td { padding: 1px 3px; }
 .quote { font-family: monospace; font-size: 11px; padding: 4px 0; }
+.board { border: 1px solid #B2B2B2; margin-bottom: 4px; } .board th { background: #0C59A9; color: #fff; text-align: left; }
+.board tr.hdr td { background: #F8C412; font-weight: bold; } .board td { border-bottom: 1px solid #E6E6E6; vertical-align: top; }
+.board .desc { font-size: 10px; color: #666; } .board .mod { font-size: 10px; color: #0C59A9; }
+.wiki h2 { font-size: 14px; border-bottom: 1px solid #B2B2B2; } .wiki h3 { font-size: 12px; } .wiki table { font-size: 11px; }
