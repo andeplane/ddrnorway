@@ -1,0 +1,307 @@
+[
+{
+"id": 76,
+"name": "European Cup 1",
+"season": "European Cup"
+},
+{
+"id": 100,
+"name": "European PG Cup 2",
+"season": "European Cup"
+},
+{
+"id": 9,
+"name": "Challenge Cup 1",
+"season": "Challenge Cup 2003"
+},
+{
+"id": 10,
+"name": "Challenge Cup 2",
+"season": "Challenge Cup 2003"
+},
+{
+"id": 11,
+"name": "Challenge Cup 3",
+"season": "Challenge Cup 2003"
+},
+{
+"id": 13,
+"name": "Challenge Cup 5",
+"season": "Challenge Cup 2003"
+},
+{
+"id": 12,
+"name": "Challenge Cup 4",
+"season": "Challenge Cup 2003"
+},
+{
+"id": 14,
+"name": "Challenge Cup 6",
+"season": "Challenge Cup 2003"
+},
+{
+"id": 15,
+"name": "Challenge Cup 7",
+"season": "Challenge Cup 2003"
+},
+{
+"id": 16,
+"name": "Challenge Cup 8",
+"season": "Challenge Cup 2003"
+},
+{
+"id": 1,
+"name": "Challenge Cup 1 - 2004",
+"season": "Challenge Cup 2004"
+},
+{
+"id": 2,
+"name": "Challenge Cup 2",
+"season": "Challenge Cup 2004"
+},
+{
+"id": 3,
+"name": "Challenge Cup 3",
+"season": "Challenge Cup 2004"
+},
+{
+"id": 4,
+"name": "Challenge Cup 4",
+"season": "Challenge Cup 2004"
+},
+{
+"id": 5,
+"name": "Challenge Cup 5 - NM",
+"season": "Challenge Cup 2004"
+},
+{
+"id": 6,
+"name": "Challenge Cup 6",
+"season": "Challenge Cup 2004"
+},
+{
+"id": 7,
+"name": "Challenge Cup 7",
+"season": "Challenge Cup 2004"
+},
+{
+"id": 8,
+"name": "Challenge Cup 8",
+"season": "Challenge Cup 2004"
+},
+{
+"id": 113,
+"name": "Challenge Cup 2005 #1",
+"season": "Challenge Cup 2005"
+},
+{
+"id": 159,
+"name": "Challenge Cup 2005 #2",
+"season": "Challenge Cup 2005"
+},
+{
+"id": 152,
+"name": "Challenge Cup 2005 #3",
+"season": "Challenge Cup 2005"
+},
+{
+"id": 153,
+"name": "Challenge Cup 2005 #4",
+"season": "Challenge Cup 2005"
+},
+{
+"id": 154,
+"name": "Challenge Cup 2005 #5",
+"season": "Challenge Cup 2005"
+},
+{
+"id": 155,
+"name": "Challenge Cup 2005 #6",
+"season": "Challenge Cup 2005"
+},
+{
+"id": 156,
+"name": "Challenge Cup 2005 #7",
+"season": "Challenge Cup 2005"
+},
+{
+"id": 158,
+"name": "Challenge Cup 2005 #8",
+"season": "Challenge Cup 2005"
+},
+{
+"id": 61,
+"name": "Euromix2 serie 01",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 62,
+"name": "Euromix2 serie 02",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 63,
+"name": "Euromix2 serie 03",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 65,
+"name": "Euromix2 serie 05",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 64,
+"name": "Euromix2 serie 04",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 66,
+"name": "Euromix2 serie 06",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 67,
+"name": "Euromix2 serie 07",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 68,
+"name": "Euromix2 serie 08",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 69,
+"name": "Euromix2 serie 09",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 70,
+"name": "Euromix2 serie 10",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 71,
+"name": "Euromix2 serie 11",
+"season": "Euromix 2-serie 2002"
+},
+{
+"id": 85,
+"name": "Geneva Tournament IV (score)",
+"season": "Geneva Tournament"
+},
+{
+"id": 110,
+"name": "DDRUK vs. DDRNO",
+"season": "International"
+},
+{
+"id": 111,
+"name": "European Tournament in London",
+"season": "International"
+},
+{
+"id": 88,
+"name": "NM i Euromix 2 v�ren 2003",
+"season": "Norgesmesterskap"
+},
+{
+"id": 161,
+"name": "NM05 - Expert Double Gutter",
+"season": "Norgesmesterskap"
+},
+{
+"id": 163,
+"name": "NM05 - Expert Double Jenter",
+"season": "Norgesmesterskap"
+},
+{
+"id": 164,
+"name": "NM05 - Expert Single Gutter",
+"season": "Norgesmesterskap"
+},
+{
+"id": 165,
+"name": "NM05 - Expert Single Jenter",
+"season": "Norgesmesterskap"
+},
+{
+"id": 169,
+"name": "NM05 - Nybegynner gutter",
+"season": "Norgesmesterskap"
+},
+{
+"id": 89,
+"name": "Follo Pro-turnering",
+"season": "Testturnering"
+},
+{
+"id": 90,
+"name": "Oslo Pro-turnering",
+"season": "Testturnering"
+},
+{
+"id": 170,
+"name": "Test",
+"season": "Testturnering"
+},
+{
+"id": 172,
+"name": "Mongoturneringa",
+"season": "Testturnering"
+},
+{
+"id": 171,
+"name": "TestTest",
+"season": "Testturnering"
+},
+{
+"id": 80,
+"name": "Fredrikstad Turnering",
+"season": "Frittstående"
+},
+{
+"id": 78,
+"name": "Aftenposten Cup",
+"season": "Frittstående"
+},
+{
+"id": 98,
+"name": "T�nsberg Turnering",
+"season": "Frittstående"
+},
+{
+"id": 75,
+"name": "Pingleturnering",
+"season": "Frittstående"
+},
+{
+"id": 97,
+"name": "Trondheimsturnering",
+"season": "Frittstående"
+},
+{
+"id": 173,
+"name": "Sandefjord-turnering #1",
+"season": "Frittstående"
+},
+{
+"id": 174,
+"name": "Sandefjord-turnering #2",
+"season": "Frittstående"
+},
+{
+"id": 175,
+"name": "Sandefjord-turnering #3",
+"season": "Frittstående"
+},
+{
+"id": 178,
+"name": "DDR Norway Reunion",
+"season": "Frittstående"
+},
+{
+"id": 179,
+"name": "DDR Norway Reunion lagturnering",
+"season": "Frittstående"
+}
+]

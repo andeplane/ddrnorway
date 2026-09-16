@@ -1,0 +1,97 @@
+body {
+background-image: url(img/background.gif);
+background-color: #FF9900;
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+body, td, input, textarea, select {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+.sidetd {
+padding: 0px 6px 0px 8px;
+font-size: 10px;
+line-height: 13px;
+}
+
+.middletop a {
+padding: 3px 10px 3px 10px;
+font-size: 14px;
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.topstory_title {
+font-size: 14px;
+font-weight: bold;
+background-image: url(img/storytop_title.gif);
+background-repeat: no-repeat;
+padding: 3px 4px 3px 25px;
+color: #FFFFFF;
+}
+
+.topstory_date {
+font-size: 10px;
+}
+
+.topstory_text {
+padding: 5px 5px 5px 5px;
+}
+
+.topstory_more {
+font-size: 14px;
+font-weight: bold;
+}
+
+.smallstory_title {
+font-weight: bold;
+padding: 3px 4px 3px 25px;
+color: #FFFFFF;
+}
+
+a {
+color: #0C59A9;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.menu {
+color: #FFFFFF;
+font-size: 11px;
+padding-left: 18px;
+cursor: pointer;
+}
+
+.menutitle {
+color: #0C59A9;
+padding-left: 12px;
+font-weight: bold;
+}
+
+.menu a {
+color: #000000;
+text-decoration: none;
+}
+
+.toplinks {
+font-size: 14px;
+padding: 3px 20px 3px 0px;
+color: #FFFFFF;
+font-weight: bold;
+text-transform: lowercase;
+}
+
+.toplinks a {
+color: #FFCC00;
+text-decoration: none;
+}
+
+.toplinks a:hover {
+color: #FF9900;
+}

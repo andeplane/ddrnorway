@@ -1,0 +1,103 @@
+body {
+	font-family: georgia, arial, sans-serif;
+	background-color: white;
+}
+* {
+/*	border: 1px solid black; */
+}
+.header {
+	margin-bottom: 1em;
+}
+.menu {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	text-align: center;
+	background-color: rgb(161,206,222);
+}
+h1 img {
+	vertical-align: middle;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.main {
+	margin-left: 3em;
+}
+/* .main > div, but IE can't handle that :-/ */
+.main div {
+	border-left: 2px solid rgb(78,179,78);
+}
+.main div.msg, .main div.qotd {
+	border: 2px solid red;
+	background-color: rgb(161,206,222);
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+}
+.msgfooter {
+	font-size: smaller;
+	text-align: right;
+}
+.msgfooter input { 
+	margin-left: 0.5em;
+}
+
+.main p, .main pre {
+	margin-left: 1em;
+}
+table {
+	border-collapse: collapse; 
+	background-color: white;
+	margin-left: 2em;
+	font-size: smaller;
+}
+table.scores {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+th, td {
+	border: 1px solid black;
+	padding: 2px;
+}
+th { background-color: rgb(128,229,128); }
+tr.even td { background-color: #ffa; }
+tr.total { border-top: 2px solid black; }
+tr.own { border: 2px solid red; }
+td.empty { border: 0px; }
+
+a:link, a:hover, th a:link, th a:visited, th a:hover {
+	color: blue;
+}
+a:visited {
+	color: navy;
+}
+
+.notpaid {
+	color: red;
+}
+p.button {
+	margin: 0;
+}
+
+/* IE sucks! */
+tr.own td, tr.own th { border-top: 2px solid red; border-bottom: 2px solid red; }
+
+.footer {
+	padding-top: 0.5em;
+	margin-top: 1em;
+	font-size: x-small;
+	border-top: 1px solid gray;
+}
+
+.score {
+	border-right: 0px;
+}
+.playmode {
+	border-left: 0px;
+	border-right: 0px;
+}
+.difficulty {
+	border-left: 0px;
+}

@@ -1,0 +1,192 @@
+body {
+background-image: url(img/background.gif);
+background-color: #FF9900;
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+body, td, input, textarea, select {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+.sidetd {
+padding: 0px 6px 0px 8px;
+font-size: 10px;
+line-height: 13px;
+}
+
+.middletop a {
+padding: 3px 10px 3px 10px;
+font-size: 14px;
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.topstory_title {
+font-size: 14px;
+font-weight: bold;
+background-image: url(img/storytop_title.gif);
+background-repeat: no-repeat;
+padding: 3px 4px 3px 25px;
+color: #FFFFFF;
+}
+
+.topstory_date {
+font-size: 10px;
+}
+
+.topstory_text {
+padding: 5px 5px 5px 5px;
+}
+
+.topstory_more {
+font-size: 14px;
+font-weight: bold;
+}
+
+.smallstory_title {
+font-weight: bold;
+padding: 3px 4px 3px 25px;
+color: #FFFFFF;
+}
+
+a {
+color: #0C59A9;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.menu {
+color: #FFFFFF;
+font-size: 11px;
+padding-left: 18px;
+cursor: pointer;
+}
+
+.menutitle {
+color: #0C59A9;
+padding-left: 12px;
+font-weight: bold;
+}
+
+.menu a {
+color: #000000;
+text-decoration: none;
+}
+
+.toplinks {
+font-size: 14px;
+padding: 3px 20px 3px 0px;
+color: #FFFFFF;
+font-weight: bold;
+text-transform: lowercase;
+}
+
+.toplinks a {
+color: #FFCC00;
+text-decoration: none;
+}
+
+.toplinks a:hover {
+color: #FF9900;
+}
+
+/* ccbs (results system) */
+.ccbs {
+	font-family: georgia, arial, sans-serif;
+	background-color: white;
+}
+.ccbs .header {
+	margin-bottom: 1em;
+}
+.ccbs .menu {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	text-align: center;
+	background-color: rgb(161,206,222);
+}
+.ccbs h1 img {
+	vertical-align: middle;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.ccbs .main {
+	margin-left: 3em;
+}
+.ccbs .main div {
+	border-left: 2px solid rgb(78,179,78);
+}
+.ccbs .main div.msg, .ccbs .main div.qotd {
+	border: 2px solid red;
+	background-color: rgb(161,206,222);
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+}
+.ccbs .msgfooter {
+	font-size: smaller;
+	text-align: right;
+}
+.ccbs .msgfooter input { 
+	margin-left: 0.5em;
+}
+.ccbs .main p, .ccbs .main pre {
+	margin-left: 1em;
+}
+.ccbs table {
+	border-collapse: collapse; 
+	background-color: white;
+	margin-left: 2em;
+	font-size: smaller;
+}
+.ccbs table.scores {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.ccbs th, .ccbs td {
+	border: 1px solid black;
+	padding: 2px;
+}
+.ccbs th { background-color: rgb(128,229,128); }
+.ccbs tr.even td { background-color: #ffa; }
+.ccbs tr.total { border-top: 2px solid black; }
+.ccbs tr.own { border: 2px solid red; }
+.ccbs td.empty { border: 0px; }
+.ccbs a:link, .ccbs a:hover, .ccbs th a:link, .ccbs th a:visited, .ccbs th a:hover {
+	color: blue;
+}
+.ccbs a:visited {
+	color: navy;
+}
+.ccbs .notpaid {
+	color: red;
+}
+.ccbs p.button {
+	margin: 0;
+}
+.ccbs tr.own td, .ccbs tr.own th { border-top: 2px solid red; border-bottom: 2px solid red; }
+.ccbs .footer {
+	padding-top: 0.5em;
+	margin-top: 1em;
+	font-size: x-small;
+	border-top: 1px solid gray;
+}
+.ccbs .score {
+	border-right: 0px;
+}
+.ccbs .playmode {
+	border-left: 0px;
+	border-right: 0px;
+}
+.ccbs .difficulty {
+	border-left: 0px;
+}
+.ccbs .main { margin-left: 0; } .ccbs table { margin-left: 0.5em; } .ccbs h2 { font-size: 14px; } .ccbs ul { padding-left: 1.5em; } .ccbs, .ccbs table { font-family: Verdana, Arial, Helvetica, sans-serif; } .ccbs table { font-size: 10px; } .ccbs th, .ccbs td { padding: 1px 3px; }
+.quote { font-family: monospace; font-size: 11px; padding: 4px 0; }

@@ -1,0 +1,190 @@
+
+1. Generelle regler
+1.1. Disse reglene gjelder for turneringer i Challenge Cup 2005, men kan også
+     (med unntak av punkt 7.2 og 7.3) brukes for andre turneringer i den grad
+     de passer.
+1.2. Arrangøren av turneringen kan gi dispensasjon fra en eller flere av
+     disse reglene. Dette skal der det er mulig annonseres på forhånd. I
+     tilfeller der reglene sier at arrangørene bestemmer reglene (som i
+     gruppestørrelser m.m.), skal også dette annonseres på forhånd.
+1.3. Ved tvister eller forhold som ikke er berørt i reglene, vil arrangørenes
+     avgjørelse gjelde. Denne skal der det det er mulig annonseres til
+     alle deltakere.
+1.4. Arrangørene bør så langt det er mulig sørge for at alle spillere får
+     den informasjon de trenger i løpet av turneringen, og forventes å
+     sørge for en mest mulig rettferdig behandling av alle deltakere.
+1.5. Arrangørene legger ut detaljert resultatliste med alle spilleres
+     poengsummer, gruppesammensetning o.l. i rimelig tid etter turneringen.
+1.6. Alle deltakere forventes å utvise god sportsånd.
+
+
+2. Betingelser for å delta
+2.1. Man må være medlem av en offisiell, registrert maskindansklubb for å 
+     delta i Challenge Cup.
+2.2. Man må betale turneringsavgift på kr. 50,-.
+
+
+3. Turneringens gang, og generelt om turneringen
+3.1. Turneringen deles inn i tre deler: Seeding, gruppespill og eliminasjon.
+     Arrangøren kan bestemme at seeding-runden ikke spilles, dersom man har
+     tilstrekkelig seedinginformasjon fra tidligere turneringer samme sesong.
+3.2. Der det skal trekkes tilfeldige sanger, vil dette trekkes maskinelt fra
+     alle tilgjengelige sanger på DDR Extreme, unntatt de sangene som kun har
+     challenge-steps. En sang kan ikke trekkes flere ganger før sangvelgeren
+     nullstilles. Sangvelgeren nullstilles på begynnelsen av turneringen og
+     umiddelbart etter siste runde i gruppespillet.
+3.3. Det er kun tillatt å spille single. Spilleren velger selv hvilken
+     vanskelighetsgrad han eller hun vil spille hver sang på. Det er ikke
+     tillatt å spille med "mods" (1.5x, solo, flat, hidden, boost, osv.).
+3.4. Det er ikke tillatt å lene seg på jernstangen bak pad-en ("baren") i den
+     hensikt å oppnå bedre resultater (såkalt "barhugging" eller "bar rape"),
+     men det er tillatt å bruke den til å oppnå balanse hvis man er i ferd
+     med å falle e.l..
+3.5. Dersom det skulle oppstå tekniske problemer (som vannsøl fra tilskuere,
+     en matte som henger seg opp e.l.) i løpet av en sang, strykes det første
+     resultatet og spilleren får spille sangen om igjen.
+3.6. Hvis det er liten tid, kan arrangøren bestemme at det spilles versus for
+     tilfeldige sanger i én eller flere runder. Spillerne er selv ansvarlig
+     for å bli enige om hvem som spiller på hvilken side; dersom det ikke
+     oppnås enighet, avgjøres dette ved myntkast e.l.. Dersom det er et ulikt
+     antall spillere i gruppen, vil spilleren som spiller sist få fordelen
+     av å spille alene.
+3.7. Arrangørene registrerer poengsum for hver spiller, som gitt av
+     poengsummen maskinen gir ut. For oversiktens skyld deles poengsummen
+     på 10000 (med avrunding mot null) før den skrives ned; dette betyr som
+     oftest at det man skriver ned er de fire første sifrene.
+3.8. Dersom en spiller på noe punkt i en sang går tom for energi ("feiler"
+     sangen, dvs. får karakteren E), registreres null poeng.
+3.9. I tillegg til tilfeldige valgte sanger skal alle spillere i hver runde
+     i gruppespillet og eliminasjonen spille én selvvalgt sang hver.
+     Spilleren kan velge sang og vanskelighetsgrad fritt, med følgende
+     begrensninger:
+     
+     3.9.1. En spiller kan ikke velge samme sang to ganger i løpet av en
+            turnering.
+     3.9.2. En spiller kan ikke velge en sang som er valgt som tilfeldig
+            sang samme runde.
+     3.9.3. En spiller kan ikke velge en sang som har vært tilfeldig sang
+            i en tidligere seeding- eller eliminasjonsrunde samme turnering.
+
+
+4. Seeding
+4.1. Det er maksimalt én seedingrunde. Formålet med seedingrunden er å skaffe
+     et omtrentlig bilde av spillernes relative ferdighet.
+4.2. Det trekkes ut én tilfeldig sang, og alle spillere spiller denne.
+     Rekkefølgen er ikke definert, det anbefales at man bruker alfabetisk
+     orden e.l..
+4.3. Alle går videre fra seedingrunden til første gruppespillrunde, selv om
+     spilleren skulle feile.
+
+
+5. Gruppespill
+5.1. I hver runde i gruppespillet er det minst to grupper med minst to
+     spillere i hver gruppe. Arrangøren bestemmer på forhånd hvor mange runder
+     med gruppespill det kan være, helt ned til ingen om det er tid. (I
+     slike tilfeller skal reglene tillempes best mulig til å passe til
+     situasjonen; det er ikke skrevet egne regler for dette.) Arrangøren
+     bestemmer videre (på forhånd) hvor mange grupper det skal være i hver
+     runde samt hvor mange som skal gå videre fra hver gruppe hver runde (se
+     5.6).
+5.2. Før gruppene fordeles, settes det opp en rankingliste over alle
+     spillerne, etter følgende regler:
+     
+     5.2.1. Om listen er for første runde og det har vært avholdt en
+            seedingrunde, brukes resultatene fra denne direkte.
+     5.2.2. Om listen er for første runde og det _ikke_ har vært avholdt
+            en seedingrunde, setter arrangørene opp en slik liste (se 3.1).
+     5.2.3. I alle andre tilfeller settes listen opp basert på poengsummene
+            fra forrige runde. Kriteriet for rangering er
+	    sum(poeng) / sum(maks_føtter), der sum(poeng) er summen av alle
+	    spillerens poengsummer i den runden, og sum(maks_føtter) er 
+	    summen av høyeste fotrating på alle sangene vedkommende har
+	    spilt. Selvvalgte sanger teller alltid som 10 føtter i den siste
+	    summen.
+
+     Listen trenger ikke å annonseres spesielt.
+5.3. Gruppene settes opp etter følgende mønster: Først settes den høyest
+     seedede spilleren i gruppe 1, deretter den nest høyest seedede i gruppe
+     2 osv. inntil alle gruppene har én spiller. Deretter gjør man det samme
+     om igjen, men nå i motsatt rekkefølge slik at den siste gruppen får den
+     best seedede spilleren som er igjen, den nest siste får den nest beste
+     osv.. Slik fortsetter man å alternere til det ikke er flere spillere
+     igjen. Eksempel: Hvis det er tre grupper og åtte spillere, får gruppe A
+     spiller 1, 6 og 7, gruppe B spiller 2, 5 og 8, og gruppe C spiller 3 og 4.
+5.4. For hver gruppe trekkes det to tilfeldige sanger (heretter kalt TA og
+     TB). Spillerne spiller disse annenhver gang, den best seedede til sist.
+     Når alle har spilt én sang, gjøres det samme en gang til med sangen
+     vedkommende ikke har spilt. I eksempelet fra forrige punkt ville gruppe
+     A foregått slik: S7 spiller TA, S6 spiller TB, S1 spiller TA, S7 spiller
+     TB, S6 spiller TA, S1 spiller TB. Dersom man spiller på versus (se punkt
+     3.6) vil de to spillerne naturlig nok måtte spille samme sang, men man
+     alternerer allikevel etter samme system, bare i par i stedet for
+     enkeltvis.
+5.5. Når de tilfeldige sangene er spilt, velger hver spiller en sang som
+     vedkommende spiller alene (se punkt 3.9). Spilleren trenger ikke å velge
+     sangen sin før han eller hun faktisk skal spille den. Rekkefølgen man
+     spiller i er gitt av følgende:
+     
+     5.5.1. Dersom det er første runde og det ikke har vært noen
+	    seedingrunde, spiller den som har dårligst sammenlagt poengsum på
+	    de to tilfeldige sangene først, deretter den med nest dårligst
+	    osv..
+     5.5.2. I alle andre tilfeller spiller man etter samme rekkefølge som man
+            spilte de tilfeldige sangene (dvs. den best seedede til slutt).
+
+5.6. Når runden er over, summeres alle poengsummene for hver spiller. De N
+     beste spillerne (se punkt 5.1), basert på total poengsum, fra hver
+     gruppe går videre til neste runde.
+
+6. Eliminasjon/finale
+6.1. Det er én eller flere eliminasjonsrunder; hvor mange bestemmes av
+     arrangørene på forhånd.
+6.2. I hver runde i eliminasjonen spiller alle spillerne i samme gruppe.
+     I hver runde går én eller flere spillere ut; hvor mange som går ut
+     av hver runde bestemmes på forhånd av arrangørene.
+6.3. I hver runde velges det én tilfeldig sang (se 3.2), unntatt i
+     semifinalen (nest siste runde) og finalen (siste runde), der det velges
+     to.
+6.4. Før hver runde settes det opp en rangeringsliste, som i 5.2. Dersom
+     forrige runde var en eliminasjonsrunde, brukes resultatene derfra
+     direkte.  Hvis forrige runde var en runde med gruppespill, brukes
+     resultatene derfra som spesifisert i 5.2.3. Spillerne spiller hele veien
+     i motsatt rekkefølge fra rankinglisten, slik at den beste spilleren
+     spiller til slutt.
+6.5. Som i gruppespillet (se 5.4 og 5.5) spiller alle spillerne den
+     tilfeldige sangen før man begynner på selvvalgte sanger. Dersom det
+     spilles to tilfeldige sanger, skal man _ikke_ alternere mellom dem som i
+     gruppespillet; først spiller alle spillerne den første sangen i
+     rekkefølge, og deretter spiller alle spillerne den andre sangen i
+     rekkefølge.
+6.6. Som i gruppespillet (se 3.9 og 5.5) velger hver av spillerne en sang
+     selv, som vedkommende spiller på valgfri vanskelighetsgrad.
+6.7. På slutten av hver eliminasjonsrunde summeres poengene for hver spiller
+     den runden, som i gruppespillet. Dersom det er finalen, vinner spilleren
+     med flest poeng sammenlagt i finalerunden; i alle andre runder går de N
+     beste videre til neste eliminasjonsrunde (se 6.2).
+
+7. Rangering
+7.1. På slutten av turneringen settes det opp en helhetlig rangering av alle
+     spillerne som har deltatt i turneringen. Denne settes opp etter følgende
+     kriterier:
+     
+     7.1.1. Alle spillere som har nådd en gitt runde, rangeres over alle
+            spillere som ikke har nådd den runden.
+     7.1.2. Spillere som står likt etter 7.1.1, rangeres etter kriteriet
+            definert i 5.2.3. (Merk at dette alltid vil føre til at spillere
+	    som spilte sin siste runde i samme gruppe, f.eks. i
+	    elimineringen, vil rangeres likt i den helhetlige rankinglisten
+	    som internt i gruppen.)
+
+7.2. Den beste spilleren i en Challenge Cup får 100 poeng i CC-sammendraget.
+     Den nest beste får ti færre (90), den tredje beste får ytterligere ni
+     færre (81), den fjerde beste ytterligere åtte færre (73) osv., helt til
+     man er nede på ett og ett poeng mindre. Det deles ikke ut negative
+     poeng. Dette gir følgende poengsummer for de første plassene: 100, 90,
+     81, 73, 66, 60, 55, 51, 48, 47, 46, osv. og så ned til 0 poeng for 56.
+     plass og dårligere.
+7.3. Det er åtte turneringer i løpet av en sesong.  På slutten av sesongen
+     settes resultatlisten opp, basert på CC-poengene fra de seks (6) beste
+     turneringene for hver spiller.
+
